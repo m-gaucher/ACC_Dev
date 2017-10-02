@@ -7,7 +7,7 @@ print("\nFirst for loop counting forward.")
 for i in range(num):
     print("Counting : ", i)
 
-print("\nSecond while loop counting forward.")
+print("\nSecond for loop counting forward.")
 for i in range(0,num,1):
     print("Counting : ", i)
 

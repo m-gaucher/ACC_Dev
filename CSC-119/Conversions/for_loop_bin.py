@@ -13,10 +13,8 @@ for i in range(num):
     print("Int: ", i, " is Binary: ", bin(i))
 
 #alternative way to print binary using format() function
-str_bin_list = []
 print("\nSecond for loop using format()")
 for i in range(num):
     print("Int: ", i, " is Binary: ", "{0:b}".format(i))
-    str_bin_list.append(str(i))
 
 

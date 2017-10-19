@@ -26,3 +26,20 @@ for index in range(len(word)):
 print("\nword: ", word, "; has length:", len(word))
 print("\neoth cap word: ", eoth_cap_string, "; has length:", len(word))
 print("\ncap word: ", word.upper(), "; has length:", len(word.upper()))
+
+#Let's remove the capitalized letter(s) using
+removed_c_word =  ""
+for index in range(len(word)):
+    if(eoth_cap_string[index].isupper() == False):
+        removed_c_word += eoth_cap_string[index]
+        
+print("\nremoved cap word: ", removed_c_word, "; has length:", len(removed_c_word))
+
+#compare the lengths of each string using len()
+if ( len(word) == len(removed_c_word) ):
+    print("\n", word, "has the same number of letters as", removed_c_word)
+elif( len(word) > len(removed_c_word) ):
+    print("\n", word, "has MORE letters than", removed_c_word)
+else:
+    #this case will never get hit because of above restraints
+    print("\n", word, "has LESS letters than", removed_c_word) 

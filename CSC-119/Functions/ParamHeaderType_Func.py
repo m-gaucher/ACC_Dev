@@ -33,7 +33,6 @@ def paramN_func(*args):
     for arg in args:
         print("arg: ", arg)
 
-
 '''
 main: Entry point of Program
 '''

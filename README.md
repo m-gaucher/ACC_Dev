@@ -6,4 +6,4 @@ Code for Arapahoe Community College Course
 
 _Author: Charles Dierbach_
 
-![alt tag](https://github.com/m-gaucher/ACC_Dev/blob/master/img/python_tbook.jpg "scale=.1")
+![alt tag](https://github.com/m-gaucher/ACC_Dev/blob/master/img/python_tbook.jpg "width=150px height=200px")

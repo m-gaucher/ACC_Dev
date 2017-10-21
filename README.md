@@ -2,6 +2,6 @@
 Code for Arapahoe Community College Course
 
 ## Course Textbook 
-_Introduction to Computer Science using Python: A Computational Problem-Solving Focus_ 
+**_Introduction to Computer Science using Python: A Computational Problem-Solving Focus_** 
 
-Author: Charles Dierbach
+_Author: Charles Dierbach_

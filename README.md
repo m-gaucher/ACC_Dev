@@ -1,7 +1,7 @@
 # ACC_Dev
 Code for Arapahoe Community College Course
 
-## Course Textbook 
+## CSC-119 Course Textbook 
 **_Introduction to Computer Science using Python: A Computational Problem-Solving Focus_** 
 
 _Author: Charles Dierbach_
@@ -11,7 +11,7 @@ _Author: Charles Dierbach_
 </p>
 
 
-**__Chapters covered in this course:__**
+**__CSC-119 Course:__**
 * Chapter 1: _Introduction_
 * Chapter 2: _Data & Expressions_
 * Chapter 3: _Control Structures_

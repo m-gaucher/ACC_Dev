@@ -6,10 +6,10 @@ Code for Arapahoe Community College Course
 
 _Author: Charles Dierbach_
 
-<p>
-<img align="left" width="310" height="350" src="https://github.com/m-gaucher/ACC_Dev/blob/master/img/python_tbook.jpg">
-</p>
 
+<img align="left" width="310" height="350" src="https://github.com/m-gaucher/ACC_Dev/blob/master/img/python_tbook.jpg">
+
+<p>
 **__Chapters covered in this course:__**
 * Chapter 1: _Introduction_
 * Chapter 2: _Data & Expressions_
@@ -20,3 +20,4 @@ _Author: Charles Dierbach_
 * Chapter 7: _Modular Design_
 * Chapter 8: _Text Files_
 * Chapter 9: _Dictionaries & Sets_
+</p>

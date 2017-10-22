@@ -10,6 +10,7 @@ _Prepared by: Marshall Gaucher_
 STQ = Self-Test Questions
 
 > :blue_book: Section 5.1.3: Questions 1, 2, 3, 5, 6, 7
+
 > :blue_book: Section 5.2.7: Questions 1, 2, 4, 5, 6, 7, 8
 
 * **Valued-Return Functions**

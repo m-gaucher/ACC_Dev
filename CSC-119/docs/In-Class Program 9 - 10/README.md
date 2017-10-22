@@ -164,4 +164,75 @@ print(word_list.count('word1'))
 ```
 Our goal is to demonstrate the implementations and operations of Tuples. We will then revisit lists, with a list of strings.
 
+### Procedure
+1. Declare/Create a Tuple
+2. Iterate a Tuple
+3. Tuple Operations
+4. Declare/Create a list of Strings
+5. Operations on list of Strings
+6. Delete a list
+
+> Inc10prog.py
+```python
+# create / declare a tuple
+num_tuple = ()
+print (" num_tuple contains : ", num_tuple )
+print (" length of num_tuple : ", len( num_tuple ))
+
+# declaring a tuple with ints
+num_tuple = (1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10)
+print (" Creating a tuple of ints :", num_tuple )
+print (" length of num_tuple : ", len( num_tuple ))
+
+# iterating forwards in a tuple
+for num in num_tuple :
+    print (" Value : ",num)
+    print (" length of num_tuple : ", len( num_tuple ))
+
+# print max value in tuple
+print ("max value in tuple is: ", max( num_tuple ))
+
+# print min value in tuple
+print ("min value in tuple is: ", min( num_tuple ))
+
+# convert tuple to list
+print (" num_tuple to list : ", list ( num_tuple ))
+
+# declare a list of strings
+string_list = ['chicken ','cow ','bird ','dog ','elk ']
+print (" string_list contains : ", string_list )
+print (" number of values in string_list : ", len( string_list ))
+```
+``output``
+```sh
+num_tuple contains :  ()
+length of num_tuple :  0
+Creating a tuple of ints : (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+length of num_tuple :  10
+Value :  1
+length of num_tuple :  10
+Value :  2
+length of num_tuple :  10
+Value :  3
+length of num_tuple :  10
+Value :  4
+length of num_tuple :  10
+Value :  5
+length of num_tuple :  10
+Value :  6
+length of num_tuple :  10
+Value :  7
+length of num_tuple :  10
+Value :  8
+length of num_tuple :  10
+Value :  9
+length of num_tuple :  10
+Value :  10
+length of num_tuple :  10
+max value in tuple is:  10
+min value in tuple is:  1
+num_tuple to list :  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+string_list contains :  ['chicken ', 'cow ', 'bird ', 'dog ', 'elk ']
+number of values in string_list :  5
+```
 

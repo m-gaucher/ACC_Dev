@@ -1,5 +1,5 @@
 # CSC-119
-Code for Arapahoe Community College CSC-119 Course. This repo contains
+This repo contains material, code, and resources for Python.
 
 ## CSC-119 Course Textbook 
 **_Introduction to Computer Science using Python: A Computational Problem-Solving Focus_** 

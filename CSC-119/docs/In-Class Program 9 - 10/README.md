@@ -143,5 +143,23 @@ Now  num_list  contains:  [44, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 In this program, we will use a Text editor to formally write our program.  The final solution MUST run successfully as a Python program.  This program will demonstrate what we have learned from Chapter 4.  We intend to demonstrate competencies in the following topics:
 
 * **Tuples**
-* **Tuple Operations** 
-* **List of Strings** 
+```python
+num_tuple (0,1,2,3,4)
+```
+* **Tuple Operations**
+```python
+num_tuple (0,1,2,3,4)
+max(num_tuple)
+min(num_tuple)
+```
+* **List of Strings**
+```python
+string_list = ['chicken ','cow ','bird ','dog ','elk ']
+```
+* **List Operations**
+```python
+word_list = ['word1','word2','word3']
+print(len(word_list))
+print(word_list.count('word1'))
+```
+

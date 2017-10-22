@@ -5,7 +5,7 @@ _Prepared by: Marshall Gaucher_
 
 **Due: Date at 11:59 PM MT**
 
-## In Class 
+## In Class 9 
 ### Introduction
 In this program, we will use a Text editor to formally write our program. The final solution MUST run successfully as a Python program.  This program will demonstrate what we have learned from Chapter 4.  We intend to demonstrate competencies in the following topics:
 

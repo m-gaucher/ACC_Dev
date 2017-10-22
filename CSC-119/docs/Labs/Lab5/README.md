@@ -9,8 +9,8 @@ _Prepared by: Marshall Gaucher_
 ### STQ From Textbook
 STQ = Self-Test Questions
 
-> :blue-book: Section 5.1.3: Questions 1, 2, 3, 5, 6, 7
-> :blue-book: Section 5.2.7: Questions 1, 2, 4, 5, 6, 7, 8
+> :blue_book: Section 5.1.3: Questions 1, 2, 3, 5, 6, 7
+> :blue_book: Section 5.2.7: Questions 1, 2, 4, 5, 6, 7, 8
 
 * **Valued-Return Functions**
 ```python

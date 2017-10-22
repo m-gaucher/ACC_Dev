@@ -24,7 +24,7 @@ Our goal is to ensure our Turtle Graphics environment is stable and functioning.
 3. Get a reference to the turtle object
 4. Set the location of the turtle object
 
-> :page_facing_up: [Inc13prog.py](google.com)
+> :page_facing_up: [Inc13prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Programs%2013%20-%2014/Inc13prog.py)
 ```python
 import turtle
 

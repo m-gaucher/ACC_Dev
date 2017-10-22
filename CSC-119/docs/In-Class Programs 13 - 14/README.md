@@ -24,24 +24,38 @@ Our goal is to ensure our Turtle Graphics environment is stable and functioning.
 3. Get a reference to the turtle object
 4. Set the location of the turtle object
 
-> :page_facing_up: [Inc13prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Program%2011%20-%2012/Inc11prog.py)
+> :page_facing_up: [Inc13prog.py](google.com)
 ```python
-'''
-average: value-return function with 3 parameters n1, n2 ,n3 passed in
-'''
-def average(n1,n2,n3):
-    print("Entering: ", average.__name__ + '()')
-    return (n1+n2+n3) / 3.0
+import turtle
 
 '''
 main: main function of program
 '''
 def main():
-    avg = 0.0
-    print("average before function call:", avg)
-    avg = average(1,2,3)
-    print("average after function call:", avg)
+    window_title = "My first Turtle Graphics Program"
+    window_width = 400
+    window_height = 400
+    startx = 0
+    starty = 0
+    
+    #set window size
+    turtle.setup(window_width,window_height)
+    
+    #get reference to turtle window 
+    window = turtle.Screen()
+    
+    #set window title bar
+    window.title(window_title)
+    
+    #get a Turtle object
+    the_turtle = turtle.getturtle()
 
+    #change the default turtle shape
+    the_turtle.shape("turtle")
+    
+    #set the turtle's posistion
+    the_turtle.setpos(0,0)
+    
 if __name__ == "__main__":
     main()
 ```

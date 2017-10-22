@@ -7,7 +7,7 @@ _Prepared by: Marshall Gaucher_
 
 ## In Class 
 ### Introduction
-In  this  program,  we  will  use  a  Text  editor  to  formally  write  our  program.The  nal solution MUST run successfully as a Python program.  This pro-gram will demonstrate what we have learned from Chapter 4.  We intend todemonstrate competencies in the following topics:
+In this program, we will use a Text editor to formally write our program. The final solution MUST run successfully as a Python program.  This program will demonstrate what we have learned from Chapter 4.  We intend to demonstrate competencies in the following topics:
 * Lists
 ```python
 num_list = [0,1,2,3,4,5]
@@ -40,4 +40,4 @@ item_list[1] = "MeToo"
 del item_list
 ```
 
-Our goal is to iterate forward and backward in a list.  This is to get usfamiliar  with  the  basic   ow  of  underlying  functions  provided  by  lists.   Wewill then use some of these list operations to manipulate our given list.
+Our goal is to iterate forward and backward in a list.  This is to get us familiar with the basic floow of underlying functions  provided by lists.  We will then use some of these list operations to manipulate our given list.

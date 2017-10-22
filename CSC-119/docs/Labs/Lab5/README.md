@@ -3,7 +3,7 @@ _Prepared for: CSC-119 Students_ /
 _Prepared by: Marshall Gaucher_
 
 
-**Due: Date at 11:59 PM MT**
+**Due: 10/25/17 at 11:59 PM MT**
 
 ## Part 1: STQ From Textbook
 STQ = Self-Test Questions

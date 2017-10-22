@@ -91,7 +91,7 @@ print("Now  num_list  contains: ",num_list)
 num_list.clear ()
 ```
 ```output```
-```sh
+```
 Appending  value: 1 in index: 0
 num_list  has 1 items
 Appending  value: 2 in index: 1
@@ -204,7 +204,7 @@ print (" string_list contains : ", string_list )
 print (" number of values in string_list : ", len( string_list ))
 ```
 ``output``
-```sh
+```
 num_tuple contains :  ()
 length of num_tuple :  0
 Creating a tuple of ints : (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)

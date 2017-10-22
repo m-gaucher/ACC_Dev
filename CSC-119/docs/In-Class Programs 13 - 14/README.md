@@ -86,23 +86,34 @@ In this program, we will use a Text editor to formally write our program. The fi
 
 > :page_facing_up: [Inc14prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Programs%2013%20-%2014/Inc14prog.py)
 ```python
-#Inc13prog.py
 import turtle
 
 #setup the turtle object in global space
 the_turtle = turtle.getturtle()
 
+'''
+forward: used to bind keyboard up arrow key to control turtle
+'''
 def forward():
     the_turtle.forward(1)
     print("forward key pressed ")
-    
+
+'''
+backward: used to bind keyboard down arrow key to control turtle
+'''    
 def backward():
     the_turtle.backward(1)
     print("backward key pressed ")
 
+'''
+left: used to bind keyboard left arrow key to control turtle
+'''
 def left ():
     print("left key pressed ")
 
+'''
+right: used to bind keyboard right arrow key to control turtle
+'''
 def right():
     print("right key pressed ")
 
@@ -153,9 +164,6 @@ if __name__ == "__main__":
 ```
 > :computer: Output
 ```
-Program starting from:  main()
-Entering:  display_prompt()
-Welcome to the display_prompt function!
-After function call, back to :  main()
+blah blah
 ```
 

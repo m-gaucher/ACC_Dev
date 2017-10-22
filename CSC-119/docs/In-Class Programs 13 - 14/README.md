@@ -60,11 +60,9 @@ if __name__ == "__main__":
     main()
 ```
 > :computer: Output
-```
-average before function call: 0.0
-Entering:  average()
-average after function call: 2.0
-```
+<p align ="left">
+  <img width="400" height="400" src="https://github.com/m-gaucher/ACC_Dev/blob/master/img/">
+</p>
 ## In Class Program 14
 ### Introduction
 In this program, we will use a Text editor to formally write our program. The final solution MUST run successfully as a Python program. This program will demonstrate what we have learned from Chapter 5. We intend to demonstrate competencies in the following topics:

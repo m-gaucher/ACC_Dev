@@ -39,12 +39,12 @@ _Author: Charles Dierbach_
 </p>
 
 **__CSC-119 Course:__**
-* Chapter 1: _Introduction_
-* Chapter 2: _Data & Expressions_
-* Chapter 3: _Control Structures_
-* Chapter 4: _Lists_
-* Chapter 5: _Functions_
-* Chapter 6: _Obejects & Their Use_
-* Chapter 7: _Modular Design_
-* Chapter 8: _Text Files_
-* Chapter 9: _Dictionaries & Sets_
+* Chapter 1: _Introduction_ [Chapter 1 Slides](https://prezi.com/flmsvef24uvb/csc119-chapter-1-introduction/?utm_campaign=share&utm_medium=copy)
+* Chapter 2: _Data & Expressions_ [Chapter 2 Slides](https://prezi.com/ibjdycrcdp1p/csc119-chapter-2-data-expressions/?utm_campaign=share&utm_medium=copy)
+* Chapter 3: _Control Structures_ [Chapter 2 Slides](https://prezi.com/x_gy8my5a3km/csc-119-chapter-3-control-structures/?utm_campaign=share&utm_medium=copy)
+* Chapter 4: _Lists_ [Chapter 4 Slides](https://prezi.com/cx_7rt5xrslq/csc119-chapter-4-lists/?utm_campaign=share&utm_medium=copy)
+* Chapter 5: _Functions_ [Chapter 5 Slides](https://prezi.com/xq-othbjji7h/csc119-chapter-5-functions/?utm_campaign=share&utm_medium=copy)
+* Chapter 6: _Obejects & Their Use_ [Chapter 6 Slides](https://prezi.com/9t0yh0miudeu/csc119-chapter-6-objects/?utm_campaign=share&utm_medium=copy)
+* Chapter 7: _Modular Design_ [Chapter 7 Slides](https://prezi.com/ydrbifjkkt7p/csc119-chapter-7-modular-design/?utm_campaign=share&utm_medium=copy)
+* Chapter 8: _Text Files_ [Chapter 8 Slides](https://prezi.com/quufbev8xuwv/csc119-chapter-8-text-files/?utm_campaign=share&utm_medium=copy)
+* Chapter 9: _Dictionaries & Sets_ [Chapter 9 Slide](https://prezi.com/l8xd4xl2yqwv/chapter-9-dictionaries-and-sets/?utm_campaign=share&utm_medium=copy)

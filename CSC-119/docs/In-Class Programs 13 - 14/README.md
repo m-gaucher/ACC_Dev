@@ -67,37 +67,89 @@ if __name__ == "__main__":
 
 ## In Class Program 14
 ### Introduction
-In this program, we will use a Text editor to formally write our program. The final solution MUST run successfully as a Python program. This program will demonstrate what we have learned from Chapter 5. We intend to demonstrate competencies in the following topics:
+In this program, we will use a Text editor to formally write our program. The final solution MUST run successfully as a Python program. This program will demonstrate what we have learned from Chapter 6. We intend to demonstrate competencies in the following topics:
 
-* **Non-valued Return functions**
-```python
-def display():
-  print("Hello World!")
-```
+* **Objects**
+* **Importing Modules**
+* **Turtle Graphics**
+* **Method Binding**
+* **Event Handling**
 
 ### Procedure
-1. Define a display function
-2. Call the display function
+1. Setup a Turtle window with a given size
+2. Get a reference to the turtle window
+3. Get a reference to the turtle object
+4. Set the location of the turtle object
+5. Bind keyboard arrow keys to given functions
+6. Setup event handler to capture keyboard keys pressed by user
+7. Move the Turtle based on users keyboard input
 
-> :page_facing_up: [Inc12prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Program%2011%20-%2012/Inc12prog.py)
+> :page_facing_up: [Inc14prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Program%2011%20-%2012/Inc12prog.py)
 ```python
-'''
-display_prompt: non-value return function with no parameters
-'''
-def display_prompt():
-    print("Entering: ", display_prompt.__name__ + '()')
-    print("Welcome to the display_prompt function!")
+#Inc13prog.py
+import turtle
+
+#setup the turtle object in global space
+the_turtle = turtle.getturtle()
+
+def forward():
+    the_turtle.forward(1)
+    print("forward key pressed ")
+    
+def backward():
+    the_turtle.backward(1)
+    print("backward key pressed ")
+
+def left ():
+    print("left key pressed ")
+
+def right():
+    print("right key pressed ")
+
 
 '''
 main: main function of program
 '''
 def main():
-    print("Program starting from: ", main.__name__ + '()')
-    display_prompt()
-    print("After function call, back to : ", main.__name__ + '()')
+    window_title = "My first Turtle Graphics Program"
+    window_width = 400
+    window_height = 400
+    startx = 0
+    starty = 0
+    
+    #set window size
+    turtle.setup(window_width,window_height)
+    
+    #get reference to turtle window 
+    window = turtle.Screen()
+    
+    #set window title bar
+    window.title(window_title)
+    
+    #change the default turtle shape
+    the_turtle.shape("turtle")
+    
+    #set the turtle's posistion
+    the_turtle.setpos(0,0)
 
+    #bind up keyboard arrow to forward function
+    window.onkey( forward , "Up")
+
+    #bind up keyboard arrow to backward function
+    window.onkey( backward , " Down ")
+
+    #bind up keyboard arrow to right function
+    window.onkey(right , " Right ")
+
+    #bind up keyboard arrow to left function
+    window.onkey(left , " Left ")
+
+    #setup event handler
+    window.listen()
+    
 if __name__ == "__main__":
     main()
+
 ```
 > :computer: Output
 ```

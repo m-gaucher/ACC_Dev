@@ -5,7 +5,7 @@ _Prepared by: Marshall Gaucher_
 
 **Due: Date at 11:59 PM MT**
 
-## In Class 9 
+## In Class Program 9 
 ### Introduction
 In this program, we will use a Text editor to formally write our program. The final solution MUST run successfully as a Python program.  This program will demonstrate what we have learned from Chapter 4.  We intend to demonstrate competencies in the following topics:
 
@@ -138,3 +138,10 @@ After  insert , index 0 now  contains  the  value:  44
 Removing  9999  from  num_list ...
 Now  num_list  contains:  [44, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
+## In Class Program 10
+### Introduction
+In this program, we will use a Text editor to formally write our program.  The final solution MUST run successfully as a Python program.  This program will demonstrate what we have learned from Chapter 4.  We intend to demonstrate competencies in the following topics:
+
+* **Tuples**
+* **Tuple Operations** 
+* **List of Strings** 

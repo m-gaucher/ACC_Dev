@@ -90,3 +90,51 @@ print("Now  num_list  contains: ",num_list)
 #delete  the  list
 num_list.clear ()
 ```
+```output```
+```sh
+Appending  value: 1 in index: 0
+num_list  has 1 items
+Appending  value: 2 in index: 1
+num_list  has 2 items
+Appending  value: 3 in index: 2
+num_list  has 3 items
+Appending  value: 4 in index: 3
+num_list  has 4 items
+Appending  value: 5 in index: 4
+num_list  has 5 items
+Appending  value: 6 in index: 5
+num_list  has 6 items
+Appending  value: 7 in index: 6
+num_list  has 7 items
+Appending  value: 8 in index: 7
+num_list  has 8 items
+Appending  value: 9 in index: 8
+num_list  has 9 items
+Appending  value: 10 in index: 9
+num_list  has 10 items
+Index:  9 has  value:  10
+num_list  has 10 items
+Index:  8 has  value:  9
+num_list  has 10 items
+Index:  7 has  value:  8
+num_list  has 10 items
+Index:  6 has  value:  7
+num_list  has 10 items
+Index:  5 has  value:  6
+num_list  has 10 items
+Index:  4 has  value:  5
+num_list  has 10 items
+Index:  3 has  value:  4
+num_list  has 10 items
+Index:  2 has  value:  3
+num_list  has 10 items
+Index:  1 has  value:  2
+num_list  has 10 items
+Index:  0 has  value:  1
+num_list  has 10 items
+retrieve a value  in the  list:  6 inindex 5
+update a value  in a list: before  1, after 9999
+After  insert , index 0 now  contains  the  value:  44
+Removing  9999  from  num_list ...
+Now  num_list  contains:  [44, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```

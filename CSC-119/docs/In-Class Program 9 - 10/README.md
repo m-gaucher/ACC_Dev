@@ -172,7 +172,7 @@ Our goal is to demonstrate the implementations and operations of Tuples. We will
 5. Operations on list of Strings
 6. Delete a list
 
-> Inc10prog.py
+> [Inc10prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Program%209%20-%2010/Inc10prog.py)
 ```python
 # create / declare a tuple
 num_tuple = ()

@@ -60,9 +60,11 @@ if __name__ == "__main__":
     main()
 ```
 > :computer: Output
+
 <p align ="left">
   <img width="400" height="400" src="https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Programs%2013%20-%2014/imgs/inc13prog_screen.PNG">
 </p>
+
 ## In Class Program 14
 ### Introduction
 In this program, we will use a Text editor to formally write our program. The final solution MUST run successfully as a Python program. This program will demonstrate what we have learned from Chapter 5. We intend to demonstrate competencies in the following topics:

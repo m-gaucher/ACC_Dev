@@ -1,7 +1,24 @@
 # CSC-119
 This repo contains material, code, and resources for the Python course.
 
-By chapter the end of Chapter 5, we will be able to have a new understanding for ```Hello_World.py```:
+In the beggining we will see ```Hello_World.py```:
+```python
+print("Hello World!")
+```
+By the end of Chapter 5, we will have a new understanding of ```Hello_World.py```:
+```python
+# Hello_World.py
+
+'''
+function: main()
+'''
+def main():
+    print("Hello World!")
+
+if __name__ == "__main__":
+    main()
+```
+
 
 
 * [Syllabus](https://acc.desire2learn.com/content/enforced2012/1842906-S_ACC_CSC119177_201820/CSC%20119-177%20Fall%2017%20Syllabus%20v1.0.pdf?_&d2lSessionVal=XwnNhsi2x5Ctjlt7IGB38eSlw)

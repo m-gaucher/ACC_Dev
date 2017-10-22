@@ -162,4 +162,6 @@ word_list = ['word1','word2','word3']
 print(len(word_list))
 print(word_list.count('word1'))
 ```
+Our goal is to demonstrate the implementations and operations of Tuples. We will then revisit lists, with a list of strings.
+
 

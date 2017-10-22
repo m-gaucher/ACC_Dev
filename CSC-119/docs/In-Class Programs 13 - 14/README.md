@@ -160,10 +160,43 @@ def main():
     
 if __name__ == "__main__":
     main()
+```
 
-```
 > :computer: Output
+
+<p align ="left">
+  <img width="400" height="400" src="https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Programs%2013%20-%2014/imgs/inc14prog_screen.PNG">
+</p>
+
+'''
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+forward key pressed 
+left key pressed 
+right key pressed 
+backward key pressed 
 ```
-blah blah
-```
+
+
 

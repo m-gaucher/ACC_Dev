@@ -197,7 +197,7 @@ left key pressed
 right key pressed 
 backward key pressed 
 ```
-> :books: Turtle Resources [here] (https://docs.python.org/2/library/turtle.html#turtle.heading)
+> :books: Turtle Resources [here](https://docs.python.org/2/library/turtle.html#turtle.heading)
 
 
 

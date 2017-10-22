@@ -1,20 +1,32 @@
-#Inc13prog.py
+#Inc14prog.py
 import turtle
 
 #setup the turtle object in global space
 the_turtle = turtle.getturtle()
 
+'''
+forward: used to bind keyboard up arrow key to control turtle
+'''
 def forward():
     the_turtle.forward(1)
     print("forward key pressed ")
-    
+
+'''
+backward: used to bind keyboard down arrow key to control turtle
+'''    
 def backward():
     the_turtle.backward(1)
     print("backward key pressed ")
 
+'''
+left: used to bind keyboard left arrow key to control turtle
+'''
 def left ():
     print("left key pressed ")
 
+'''
+right: used to bind keyboard right arrow key to control turtle
+'''
 def right():
     print("right key pressed ")
 

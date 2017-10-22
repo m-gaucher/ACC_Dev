@@ -1,8 +1,7 @@
 # CSC-119
 This repo contains material, code, and resources for Python course.
 
-* Syllabus
-[Syllabus](https://acc.desire2learn.com/content/enforced2012/1842906-S_ACC_CSC119177_201820/CSC%20119-177%20Fall%2017%20Syllabus%20v1.0.pdf?_&d2lSessionVal=XwnNhsi2x5Ctjlt7IGB38eSlw)
+* [Syllabus](https://acc.desire2learn.com/content/enforced2012/1842906-S_ACC_CSC119177_201820/CSC%20119-177%20Fall%2017%20Syllabus%20v1.0.pdf?_&d2lSessionVal=XwnNhsi2x5Ctjlt7IGB38eSlw)
 
 ## CSC-119 Course Textbook 
 **_Introduction to Computer Science using Python: A Computational Problem-Solving Focus_** 

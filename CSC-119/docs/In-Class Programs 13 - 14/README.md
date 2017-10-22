@@ -16,7 +16,7 @@ The final solution MUST run successfully as a Python program. This program will 
 
 Our goal is to ensure our Turtle Graphics environment is stable and functioning. This will allow us to begin work on Program 1. Additionally, we intend to understand the absolute position system of the Turtle, inside the graphics window.
 
-``` **_Before continuing please install Turtle from [here](http://pythonturtle.org/)_** ```
+> :turtle: **_Before continuing please install Turtle from [here](http://pythonturtle.org/)_** 
 
 ### Procedure
 1. Setup a Turtle window with a given size

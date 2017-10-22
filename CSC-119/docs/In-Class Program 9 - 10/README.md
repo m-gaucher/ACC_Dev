@@ -8,7 +8,8 @@ _Prepared by: Marshall Gaucher_
 ## In Class 
 ### Introduction
 In this program, we will use a Text editor to formally write our program. The final solution MUST run successfully as a Python program.  This program will demonstrate what we have learned from Chapter 4.  We intend to demonstrate competencies in the following topics:
-* Lists
+
+* **Lists**
 ```python
 num_list = [0,1,2,3,4,5]
 ```

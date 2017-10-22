@@ -5,8 +5,7 @@ _Prepared by: Marshall Gaucher_
 
 **Due: Date at 11:59 PM MT**
 
-## Part 1
-### STQ From Textbook
+## Part 1: STQ From Textbook
 STQ = Self-Test Questions
 
 > :blue_book: Section 5.1.3: Questions 1, 2, 3, 5, 6, 7

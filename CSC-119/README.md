@@ -1,7 +1,7 @@
 # CSC-119
 This repo contains material, code, and resources for the Python course.
 
-In the beggining we will see ```Hello_World.py```:
+In the beginning we will see ```Hello_World.py```:
 ```python
 print("Hello World!")
 ```

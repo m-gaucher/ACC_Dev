@@ -14,7 +14,7 @@ The final solution MUST run successfully as a Python program. This program will 
 * **Importing Modules**
 * **Turtle Graphics**
 
-Our goal is to ensure our Turtle Graphics environment is stable and functioning. This will allow us to begin work on Program 1. Additionally, we intend to understand the absolute position system of the Turtle, inside the graphics window.
+Our goal is to ensure our Turtle Graphics environment is stable and functioning. This will allow us to begin work on Program 1. Additionally, we intend to understand the absolute position system of the Turtle inside the graphics window.
 
 > :turtle: **_Before continuing please install Turtle from [here](http://pythonturtle.org/)_** 
 

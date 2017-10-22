@@ -31,7 +31,7 @@ Our goal is to define a function, call a function, and ensure the return value i
 > :page_facing_up: [Inc11prog.py](www.google.com)
 ```python
 '''
-value-return function with 3 parameters n1, n2 ,n3 passed in
+average: value-return function with 3 parameters n1, n2 ,n3 passed in
 '''
 def average(n1,n2,n3):
     print("Entering: ", average.__name__ + '()')

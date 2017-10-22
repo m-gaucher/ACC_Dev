@@ -12,18 +12,18 @@ In this program, we will use a Text editor to formally write our program. The fi
 ```python
 num_list = [0,1,2,3,4,5]
 ```
-* For Loops
+* **For Loops**
 ```python
 word = "bird"
 for letter in word:
   print(letter)
 ```
-* Range function
+* **Range function**
 ```python
 for num in range(6):
     print(num)
 ```
-* List Operations
+* **List Operations**
 ```python
 #delcare empty list
 item_list = []

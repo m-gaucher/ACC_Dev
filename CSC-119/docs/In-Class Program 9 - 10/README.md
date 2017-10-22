@@ -42,3 +42,14 @@ del item_list
 ```
 
 Our goal is to iterate forward and backward in a list.  This is to get us familiar with the basic floow of underlying functions  provided by lists.  We will then use some of these list operations to manipulate our given list.
+
+### Procedure
+1. Declare/Create a list of numbers
+2. Iterate forward through the list
+3. Iterate backwards through the list
+4. Append an item into the list
+5. Retrieve a value in a list
+6. Update a value in a list
+7. Insert a value in a list
+8. Remove a value in a list
+9. Delete a list

@@ -69,7 +69,7 @@ def display():
 1. Define a display function
 2. Call the display function
 
-> :page_facing_up: [Inc12prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Program%209%20-%2010/Inc10prog.py)
+> :page_facing_up: [Inc12prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Program%2011%20-%2012/Inc12prog.py)
 ```python
 '''
 display_prompt: non-value return function with no parameters

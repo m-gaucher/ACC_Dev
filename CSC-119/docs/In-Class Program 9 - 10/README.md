@@ -54,7 +54,7 @@ Our goal is to iterate forward and backward in a list.  This is to get us famili
 8. Remove a value in a list
 9. Delete a list
 
-> [Inc9prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Program%209%20-%2010/Inc9prog.py)
+> :page_facing_up: [Inc9prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Program%209%20-%2010/Inc9prog.py)
 ```python
 #create a list
 num_list = []

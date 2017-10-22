@@ -90,7 +90,7 @@ print("Now  num_list  contains: ",num_list)
 #delete  the  list
 num_list.clear ()
 ```
-```output```
+> :computer: Output
 ```
 Appending  value: 1 in index: 0
 num_list  has 1 items
@@ -203,7 +203,7 @@ string_list = ['chicken ','cow ','bird ','dog ','elk ']
 print (" string_list contains : ", string_list )
 print (" number of values in string_list : ", len( string_list ))
 ```
-``output``
+> :computer: Output
 ```
 num_tuple contains :  ()
 length of num_tuple :  0

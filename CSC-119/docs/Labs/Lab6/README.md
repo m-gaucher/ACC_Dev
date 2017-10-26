@@ -1,4 +1,4 @@
-# Lab 5
+# Lab 6
 _Prepared for: CSC-119 Students_ /
 _Prepared by: Marshall Gaucher_
 

@@ -190,6 +190,7 @@ Hello World!! : custom_module
 ```
 
 > :books: Turtle Resources [here](https://docs.python.org/2/library/turtle.html#)
+> :books: Inspect Module [here](https://docs.python.org/3/library/inspect.html)
 
 
 

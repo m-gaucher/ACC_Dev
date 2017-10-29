@@ -104,138 +104,61 @@ Mo Tu We Th Fr Sa Su
 
 ```
 
-## In Class Program 14
+## In Class Program 16
 ### Introduction
-In this program, we will use a Text editor to formally write our program. The final solution MUST run successfully as a Python program. This program will demonstrate what we have learned from Chapter 6. We intend to demonstrate competencies in the following topics:
+In this program, we will use a Text editor to formally write our program. The final solution MUST run
+successfully as a Python program. This program will demonstrate what we have learned from Chapter 7.
+We intend to demonstrate competencies in the following topics:
 
-* **Objects**
-* **Importing Modules**
-* **Turtle Graphics**
-* **Method Binding**
-* **Event Handling**
+* **Modules**
+* **Creating your own module**
 
 ### Procedure
-1. Setup a Turtle window with a given size
-2. Get a reference to the turtle window
-3. Get a reference to the turtle object
-4. Set the location of the turtle object
-5. Bind keyboard arrow keys to given functions
-6. Setup event handler to capture keyboard keys pressed by user
-7. Move the Turtle based on users keyboard input
+1. Define a function within a module
+2. Save this file as <your_module_name>.py
+3. Import this file in your python program
+4. Call functions from your created module
 
-> :page_facing_up: [Inc14prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Programs%2013%20-%2014/Inc14prog.py)
+> :page_facing_up: 
 ```python
-import turtle
+#contents of custom_module.py
+def hello_world():
+    print ("Hello World!!")
+    
+def hello_sum(x,y):
+    return x + y
+    
+def hell0_diff(x,y):
+    return x - y
 
-#setup the turtle object in global space
-the_turtle = turtle.getturtle()
-
-'''
-forward: used to bind keyboard up arrow key to control turtle
-'''
-def forward():
-    the_turtle.forward(1)
-    print("forward key pressed ")
-
-'''
-backward: used to bind keyboard down arrow key to control turtle
-'''    
-def backward():
-    the_turtle.backward(1)
-    print("backward key pressed ")
-
-'''
-left: used to bind keyboard left arrow key to control turtle
-'''
-def left ():
-    print("left key pressed ")
-
-'''
-right: used to bind keyboard right arrow key to control turtle
-'''
-def right():
-    print("right key pressed ")
-
-
-'''
-main: main function of program
-'''
 def main():
-    window_title = "My first Turtle Graphics Program"
-    window_width = 400
-    window_height = 400
-    startx = 0
-    starty = 0
-    
-    #set window size
-    turtle.setup(window_width,window_height)
-    
-    #get reference to turtle window 
-    window = turtle.Screen()
-    
-    #set window title bar
-    window.title(window_title)
-    
-    #change the default turtle shape
-    the_turtle.shape("turtle")
-    
-    #set the turtle's posistion
-    the_turtle.setpos(0,0)
+    pass
 
-    #bind up keyboard arrow to forward function
-    window.onkey( forward , "Up")
-
-    #bind up keyboard arrow to backward function
-    window.onkey( backward , " Down ")
-
-    #bind up keyboard arrow to right function
-    window.onkey(right , " Right ")
-
-    #bind up keyboard arrow to left function
-    window.onkey(left , " Left ")
-
-    #setup event handler
-    window.listen()
-    
 if __name__ == "__main__":
     main()
+else:    
+```
+
+```python
+#content of test_prog_module.py
+#import created module; ensure it is atleast within the same directory as custom_module.py
+import custom_module
+
+#call functions of the above module
+custom_module.hello_world()
+custom_module.hello_sum(2,2)
+custom_module.hell0_diff(4,2)
+
 ```
 
 > :computer: Output
 
-<p align ="left">
-  <img width="400" height="400" src="https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Programs%2013%20-%2014/imgs/inc14prog_screen.PNG">
-</p>
+
 
 ```
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-forward key pressed 
-left key pressed 
-right key pressed 
-backward key pressed 
+
 ```
+
 > :books: Turtle Resources [here](https://docs.python.org/2/library/turtle.html#)
 
 

@@ -21,8 +21,8 @@ Program 1.
 
 ### Procedure
 1. Write a function to walk the turtle along a path of points
-  - Print each x and y points per iteration
-  - Call the sleep function to pause the Turtle as it travels along the path
+    - Print each x and y points per iteration
+    - Call the sleep function to pause the Turtle as it travels along the path
   
 2. Write a function to print the duration of time the Turtle was traveling along the above path
 3. Write a function to print when the Turtle has reached the last point of the above path

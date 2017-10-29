@@ -172,6 +172,20 @@ else:
 
 
 ```
+custom_module.py  is being imported...
+Entering main() : __main__
+Hello World!! : custom_module
+2 , 2 : custom_module
+4 : __main__
+4 , 2 : custom_module
+2 : __main__
+Leaving main() : __main__
+Entering call_module_func() : call_module_func
+Hello World!! : custom_module
+2 , 2 : custom_module
+4 : call_module_func
+4 , 2 : custom_module
+2 : call_module_func
 
 ```
 

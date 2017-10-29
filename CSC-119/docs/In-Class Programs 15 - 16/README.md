@@ -143,13 +143,27 @@ else:
 > :page_facing_up:  test_prog_module.py
 ```python
 
-#import created module; ensure it is atleast within the same directory as custom_module.py
 import custom_module
 
-#call functions of the above module
-custom_module.hello_world()
-custom_module.hello_sum(2,2)
-custom_module.hell0_diff(4,2)
+def call_module_func():
+    print("Entering call_module_func()", ":", call_module_func.__name__)
+    custom_module.hello_world()
+    print(custom_module.hello_sum(2,2), ":", call_module_func.__name__)
+    print(custom_module.hell0_diff(4,2), ":", call_module_func.__name__)
+
+def main():
+    print("Entering main()", ":", __name__)
+    custom_module.hello_world()
+    print(custom_module.hello_sum(2,2), ":", __name__)
+    print(custom_module.hell0_diff(4,2), ":", __name__)
+
+    print("Leaving main()", ":", __name__)
+    call_module_func()
+        
+if __name__ == "__main__":
+    main()
+else:
+    print(__name__ + ".py", " is being imported...")
 
 ```
 

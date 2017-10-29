@@ -119,28 +119,30 @@ We intend to demonstrate competencies in the following topics:
 3. Import this file in your python program
 4. Call functions from your created module
 
-> :page_facing_up: 
+> :page_facing_up: custom_module.py
 ```python
-#contents of custom_module.py
 def hello_world():
-    print ("Hello World!!")
+    print ("Hello World!!", ":", __name__)
     
 def hello_sum(x,y):
+    print(x, ",", y, ":", __name__)
     return x + y
     
 def hell0_diff(x,y):
+    print(x, ",", y, ":", __name__)
     return x - y
 
 def main():
-    pass
+    print("Entering main():", ":", __name__)
 
 if __name__ == "__main__":
     main()
-else:    
+else:
+    print(__name__ + ".py", " is being imported...")
 ```
-> :page_facing_up: 
+> :page_facing_up:  test_prog_module.py
 ```python
-#content of test_prog_module.py
+
 #import created module; ensure it is atleast within the same directory as custom_module.py
 import custom_module
 

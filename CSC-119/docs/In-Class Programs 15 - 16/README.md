@@ -190,7 +190,12 @@ Hello World!! : custom_module
 ```
 
 > :books: Turtle Resources [here](https://docs.python.org/2/library/turtle.html#)
+
 > :books: Inspect Module [here](https://docs.python.org/3/library/inspect.html)
+
+> :books: Math Module [here](https://docs.python.org/3/library/math.html#module-math)
+
+> :books: Time Module [here](https://docs.python.org/3/library/time.html#module-time)
 
 
 

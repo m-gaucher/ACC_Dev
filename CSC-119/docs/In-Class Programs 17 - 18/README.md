@@ -17,8 +17,8 @@ Our goal is to demonstrate the fundamental concepts of file I/O. We intent to un
 
 ### Procedure
 1. Create a text file called data.txt
-  - Ensure you know where this file exists
-  - Use IDLE to create/save text file text file (simplifies path issues with data.txt)
+   - Ensure you know where this file exists
+   - Use IDLE to create/save text file text file (simplifies path issues with data.txt)
 2. Open the text file in read mode
 3. Read and print each line of the file
 4. Close the file

@@ -30,7 +30,7 @@ This is the second line in the file.
 This is the third line in the file.
 ```
 
-> :page_facing_up: [Inc17Prog.py](https://github.com/m-gaucher/ACC_Dev)
+> :page_facing_up: [Inc17Prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Programs%2017%20-%2018/IncProg17.py)
 ```python
 #open file in read mode 
 input_file = open("data.txt", "r") 
@@ -68,7 +68,8 @@ Our goal is to demonstrate the fundamental concepts of file I/O. We intent to un
 2. Write text to a file
 3. Close the file
 
-> :page_facing_up: custom_module.py
+> :page_facing_up: [Inc18Prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Programs%2017%20-%2018/IncProg18.py)
+
 ```python
 #open file in write mode 
 output_file = open("data_out.txt", "w") 

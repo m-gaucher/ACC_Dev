@@ -1,1 +1,247 @@
 
+# In Class Programs 5 & 6
+_Prepared for: CSC-119 Students_ /
+_Prepared by: Marshall Gaucher_
+
+**Due: Date at 11:59 PM MT**
+
+## In Class Program 5 
+### Introduction
+In this program, we will transition into a Text editor to formally write our program. You can still use the
+interpreter to sanity check your arithmetic, but the final solution MUST run successfully as a Python
+program. This program will summarize what we have learned from Chapter 2. We intend to
+demonstrate competencies in the following topics:
+
+* **Expressions**
+```python
+x = 2 + 4
+```
+* **Data Types**
+```python
+x = 2         #type int
+word = "bird" #type string
+num = 2.333   #type float
+```
+* **Operator Precedence**
+```
+PEMDAS
+Parantheses     ()
+Exponentiation  ** 
+Multiplication  * 
+Division        /
+Addition        +
+Subtraction     -
+```
+* **Operator Associativity**
+```
+See In-Class Presentations
+
+```
+* **Coercion**
+
+* **Type Conversion**
+
+Our goal is to convert temperature data entered by the user. We will use the Temperature Conversion
+Program as a baseline to get us started.
+
+
+### Procedure
+1. Print a program greeting (e.g. Generally describe what this program does)
+2. Prompt the user for the temperature (this is in Fahrenheit)
+3. Calculate degrees Celsius
+   - Celsius = (Fahrenheit – 32) * 5 / 9
+4. Calculate Kelvin
+   - Kelvin = Celsius + 273.15
+5. Calculate degrees Rankine
+   - Rankine = Fahrenheit + 459.67
+6. Output degrees Celsius
+   - ```print(Fahrenheit, “F \xb0 equals “, format(Celsius, ‘.2f’’), “C \xb0”)```
+7. Output Kelvin
+   - ```print(Fahrenheit, “F \xb0 equals “, format(Kelvin, ‘.2f’’), “K”)```
+8. Output degrees Rankine
+   - ```print(Fahrenheit, “F \xb0 equals “, format(Rankine, ‘.2f’’), “R \xb0”)```
+
+> :page_facing_up: [Inc5prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Program%209%20-%2010/Inc9prog.py)
+```python
+#create a list
+num_list = []
+
+#appending  ints  into a list/print  forwards
+for  num in  range (0,10):
+    num_list.append(num+1)
+    print("Appending  value:", num+1, "in index:", num)
+    print("num_list  has", len(num_list), "items")
+    
+#iterate  backwards  through a list
+for  num in  range(9,-1,-1):
+    print("Index: ", num , "has  value: ", num_list[num])
+    print("num_list  has", len(num_list), "items")
+    
+#retrieve a value  in a list
+print("retrieve a value  in the  list: " , num_list [5] , "inindex 5")
+
+#update a value  in a list
+print("update a value  in a list: before ", num_list [0], end=", after ")
+num_list [0]  = 9999
+print(num_list [0])
+
+#insert a value  in a list
+num_list.insert(0, 44)
+print("After  insert , index 0 now  contains  the  value: ", num_list [0]) 
+
+#removing  value  in list
+print("Removing  9999  from  num_list ...")
+num_list.remove (9999)  
+print("Now  num_list  contains: ",num_list)
+
+#delete  the  list
+num_list.clear ()
+```
+> :computer: Output
+```
+Appending  value: 1 in index: 0
+num_list  has 1 items
+Appending  value: 2 in index: 1
+num_list  has 2 items
+Appending  value: 3 in index: 2
+num_list  has 3 items
+Appending  value: 4 in index: 3
+num_list  has 4 items
+Appending  value: 5 in index: 4
+num_list  has 5 items
+Appending  value: 6 in index: 5
+num_list  has 6 items
+Appending  value: 7 in index: 6
+num_list  has 7 items
+Appending  value: 8 in index: 7
+num_list  has 8 items
+Appending  value: 9 in index: 8
+num_list  has 9 items
+Appending  value: 10 in index: 9
+num_list  has 10 items
+Index:  9 has  value:  10
+num_list  has 10 items
+Index:  8 has  value:  9
+num_list  has 10 items
+Index:  7 has  value:  8
+num_list  has 10 items
+Index:  6 has  value:  7
+num_list  has 10 items
+Index:  5 has  value:  6
+num_list  has 10 items
+Index:  4 has  value:  5
+num_list  has 10 items
+Index:  3 has  value:  4
+num_list  has 10 items
+Index:  2 has  value:  3
+num_list  has 10 items
+Index:  1 has  value:  2
+num_list  has 10 items
+Index:  0 has  value:  1
+num_list  has 10 items
+retrieve a value  in the  list:  6 inindex 5
+update a value  in a list: before  1, after 9999
+After  insert , index 0 now  contains  the  value:  44
+Removing  9999  from  num_list ...
+Now  num_list  contains:  [44, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
+## In Class Program 10
+### Introduction
+In this program, we will use a Text editor to formally write our program.  The final solution MUST run successfully as a Python program.  This program will demonstrate what we have learned from Chapter 4.  We intend to demonstrate competencies in the following topics:
+
+* **Tuples**
+```python
+num_tuple (0,1,2,3,4)
+```
+* **Tuple Operations**
+```python
+num_tuple (0,1,2,3,4)
+max(num_tuple)
+min(num_tuple)
+```
+* **List of Strings**
+```python
+string_list = ['chicken ','cow ','bird ','dog ','elk ']
+```
+* **List Operations**
+```python
+word_list = ['word1','word2','word3']
+print(len(word_list))
+print(word_list.count('word1'))
+```
+Our goal is to demonstrate the implementations and operations of Tuples. We will then revisit lists, with a list of strings.
+
+### Procedure
+1. Declare/Create a Tuple
+2. Iterate a Tuple
+3. Tuple Operations
+4. Declare/Create a list of Strings
+5. Operations on list of Strings
+6. Delete a list
+
+> :page_facing_up: [Inc10prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Program%209%20-%2010/Inc10prog.py)
+```python
+# create / declare a tuple
+num_tuple = ()
+print (" num_tuple contains : ", num_tuple )
+print (" length of num_tuple : ", len( num_tuple ))
+
+# declaring a tuple with ints
+num_tuple = (1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10)
+print (" Creating a tuple of ints :", num_tuple )
+print (" length of num_tuple : ", len( num_tuple ))
+
+# iterating forwards in a tuple
+for num in num_tuple :
+    print (" Value : ",num)
+    print (" length of num_tuple : ", len( num_tuple ))
+
+# print max value in tuple
+print ("max value in tuple is: ", max( num_tuple ))
+
+# print min value in tuple
+print ("min value in tuple is: ", min( num_tuple ))
+
+# convert tuple to list
+print (" num_tuple to list : ", list ( num_tuple ))
+
+# declare a list of strings
+string_list = ['chicken ','cow ','bird ','dog ','elk ']
+print (" string_list contains : ", string_list )
+print (" number of values in string_list : ", len( string_list ))
+```
+> :computer: Output
+```
+num_tuple contains :  ()
+length of num_tuple :  0
+Creating a tuple of ints : (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+length of num_tuple :  10
+Value :  1
+length of num_tuple :  10
+Value :  2
+length of num_tuple :  10
+Value :  3
+length of num_tuple :  10
+Value :  4
+length of num_tuple :  10
+Value :  5
+length of num_tuple :  10
+Value :  6
+length of num_tuple :  10
+Value :  7
+length of num_tuple :  10
+Value :  8
+length of num_tuple :  10
+Value :  9
+length of num_tuple :  10
+Value :  10
+length of num_tuple :  10
+max value in tuple is:  10
+min value in tuple is:  1
+num_tuple to list :  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+string_list contains :  ['chicken ', 'cow ', 'bird ', 'dog ', 'elk ']
+number of values in string_list :  5
+```
+
+
+

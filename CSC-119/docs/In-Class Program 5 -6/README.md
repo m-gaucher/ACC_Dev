@@ -63,185 +63,62 @@ Program as a baseline to get us started.
 
 > :page_facing_up: [Inc5prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Program%209%20-%2010/Inc9prog.py)
 ```python
-#create a list
-num_list = []
-
-#appending  ints  into a list/print  forwards
-for  num in  range (0,10):
-    num_list.append(num+1)
-    print("Appending  value:", num+1, "in index:", num)
-    print("num_list  has", len(num_list), "items")
-    
-#iterate  backwards  through a list
-for  num in  range(9,-1,-1):
-    print("Index: ", num , "has  value: ", num_list[num])
-    print("num_list  has", len(num_list), "items")
-    
-#retrieve a value  in a list
-print("retrieve a value  in the  list: " , num_list [5] , "inindex 5")
-
-#update a value  in a list
-print("update a value  in a list: before ", num_list [0], end=", after ")
-num_list [0]  = 9999
-print(num_list [0])
-
-#insert a value  in a list
-num_list.insert(0, 44)
-print("After  insert , index 0 now  contains  the  value: ", num_list [0]) 
-
-#removing  value  in list
-print("Removing  9999  from  num_list ...")
-num_list.remove (9999)  
-print("Now  num_list  contains: ",num_list)
-
-#delete  the  list
-num_list.clear ()
+Need to add code from D2L
 ```
 > :computer: Output
 ```
-Appending  value: 1 in index: 0
-num_list  has 1 items
-Appending  value: 2 in index: 1
-num_list  has 2 items
-Appending  value: 3 in index: 2
-num_list  has 3 items
-Appending  value: 4 in index: 3
-num_list  has 4 items
-Appending  value: 5 in index: 4
-num_list  has 5 items
-Appending  value: 6 in index: 5
-num_list  has 6 items
-Appending  value: 7 in index: 6
-num_list  has 7 items
-Appending  value: 8 in index: 7
-num_list  has 8 items
-Appending  value: 9 in index: 8
-num_list  has 9 items
-Appending  value: 10 in index: 9
-num_list  has 10 items
-Index:  9 has  value:  10
-num_list  has 10 items
-Index:  8 has  value:  9
-num_list  has 10 items
-Index:  7 has  value:  8
-num_list  has 10 items
-Index:  6 has  value:  7
-num_list  has 10 items
-Index:  5 has  value:  6
-num_list  has 10 items
-Index:  4 has  value:  5
-num_list  has 10 items
-Index:  3 has  value:  4
-num_list  has 10 items
-Index:  2 has  value:  3
-num_list  has 10 items
-Index:  1 has  value:  2
-num_list  has 10 items
-Index:  0 has  value:  1
-num_list  has 10 items
-retrieve a value  in the  list:  6 inindex 5
-update a value  in a list: before  1, after 9999
-After  insert , index 0 now  contains  the  value:  44
-Removing  9999  from  num_list ...
-Now  num_list  contains:  [44, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Add output
 ```
-## In Class Program 10
+## In Class Program 6
 ### Introduction
-In this program, we will use a Text editor to formally write our program.  The final solution MUST run successfully as a Python program.  This program will demonstrate what we have learned from Chapter 4.  We intend to demonstrate competencies in the following topics:
+In this program, we will use a Text editor to formally write our program. The final solution MUST run
+successfully as a Python program. This program will demonstrate what we have learned from Chapter 3.
+We intend to demonstrate competencies in the following topics:
 
-* **Tuples**
+* **Sequential control**
 ```python
-num_tuple (0,1,2,3,4)
+
 ```
-* **Tuple Operations**
+* **Boolean Expressions**
 ```python
-num_tuple (0,1,2,3,4)
-max(num_tuple)
-min(num_tuple)
+
 ```
-* **List of Strings**
+* **Membership Operators**
 ```python
-string_list = ['chicken ','cow ','bird ','dog ','elk ']
+
 ```
-* **List Operations**
+* **Selection Control**
 ```python
-word_list = ['word1','word2','word3']
-print(len(word_list))
-print(word_list.count('word1'))
+
 ```
-Our goal is to demonstrate the implementations and operations of Tuples. We will then revisit lists, with a list of strings.
+Our goal is to convert class points, entered by a user, to a letter grade and value. We will use the class
+syllabus as a baseline to get us started. As we saw in class, it is easier to use ints as bounds, but you can
+use other data types too (e.g. floats).
 
 ### Procedure
-1. Declare/Create a Tuple
-2. Iterate a Tuple
-3. Tuple Operations
-4. Declare/Create a list of Strings
-5. Operations on list of Strings
-6. Delete a list
+1. Print a program greeting (e.g. Generally describe what this program does)
+2. Prompt the user for the class points (e.g. 450)
+3. If the class point is 405 or more
+   - Output letter grade of A and the value of their points (e.g 450/450 = 100.00 %)
+4. If the class point is between 360 and 404
+   - Output letter grade of B and the value of their points (e.g 370/450 = 82.22 %)
+5. If the class point is between 315 and 359
+   - Output letter grade of C and the value of their points
+6. If the class point is between 270 and 314
+   - Output letter grade of D and the value of their points
+7. If the class points is between 269 and 0
+   - Output letter grade of F and the value of their points
+8. If the class point is greater than 450
+   - Output letter grade of A++ and the value of their points
+9. If the class point is less than 0
+   - Output “Invalid Input” 
 
-> :page_facing_up: [Inc10prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Program%209%20-%2010/Inc10prog.py)
+
+> :page_facing_up: [Inc6prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Program%209%20-%2010/Inc10prog.py)
 ```python
-# create / declare a tuple
-num_tuple = ()
-print (" num_tuple contains : ", num_tuple )
-print (" length of num_tuple : ", len( num_tuple ))
-
-# declaring a tuple with ints
-num_tuple = (1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10)
-print (" Creating a tuple of ints :", num_tuple )
-print (" length of num_tuple : ", len( num_tuple ))
-
-# iterating forwards in a tuple
-for num in num_tuple :
-    print (" Value : ",num)
-    print (" length of num_tuple : ", len( num_tuple ))
-
-# print max value in tuple
-print ("max value in tuple is: ", max( num_tuple ))
-
-# print min value in tuple
-print ("min value in tuple is: ", min( num_tuple ))
-
-# convert tuple to list
-print (" num_tuple to list : ", list ( num_tuple ))
-
-# declare a list of strings
-string_list = ['chicken ','cow ','bird ','dog ','elk ']
-print (" string_list contains : ", string_list )
-print (" number of values in string_list : ", len( string_list ))
+Add code from D2L
 ```
 > :computer: Output
 ```
-num_tuple contains :  ()
-length of num_tuple :  0
-Creating a tuple of ints : (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-length of num_tuple :  10
-Value :  1
-length of num_tuple :  10
-Value :  2
-length of num_tuple :  10
-Value :  3
-length of num_tuple :  10
-Value :  4
-length of num_tuple :  10
-Value :  5
-length of num_tuple :  10
-Value :  6
-length of num_tuple :  10
-Value :  7
-length of num_tuple :  10
-Value :  8
-length of num_tuple :  10
-Value :  9
-length of num_tuple :  10
-Value :  10
-length of num_tuple :  10
-max value in tuple is:  10
-min value in tuple is:  1
-num_tuple to list :  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-string_list contains :  ['chicken ', 'cow ', 'bird ', 'dog ', 'elk ']
-number of values in string_list :  5
+Add output from code
 ```
-
-
-

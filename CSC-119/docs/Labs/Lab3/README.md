@@ -13,7 +13,7 @@ STQ = Self-Test Questions
 
 > :blue_book: Section 3.4.6: Questions 1, 2, 3, 4, 5, 6
 
-## Part 2: Functions
+## Part 2: Conditional Temperatures
 ### Introduction
 Recall In Class Program 5, we calculated some temperature conversions. Now we want to expand on
 that using our knowledge we obtained from Chapter 3. Below are some useful formulas and information

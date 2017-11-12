@@ -20,19 +20,15 @@ that using our knowledge we obtained from Chapter 3. Below are some useful formu
 that will aid in you in this Lab:
 
 | Conversion | Formula |
-| **Fahrenheit** | --- |
 | Fahrenheit to Celsius | Celsius = (Fahrenheit – 32) * 5/9 |
 | Fahrenheit to Kelvin | Kelvin = (Fahrenheit + 459.67) * 5/9 |
 | Fahrenheit to Rankine| Rankine = Fahrenheit + 459.67 |
-| **Celsius** | --- |
 | Celsius to Fahrenheit| Fahrenheit = Celsius * 9/5 + 32 |
 | Celsius to Kelvin | Kelvin = Celsius + 273.15 |
 | Celsius to Rankine| Rankine = (Celsius + 273.15) * 9/5 |
-| **Kelvin** | --- |
 | Kelvin to Fahrenheit| Fahrenheit = Kelvin * 9/5 – 459.67 |
 | Kelvin to Celsius | Celsius = Kelvin – 273.15 |
 | Kelvin to Rankine | Rankine = Kelvin * 9/5 |
-| **Rankine** | --- |
 | Rankine to Fahrenheit | Fahrenheit = Rankine – 459.67 |
 | Rankine to Celsius | Celsius = (Rankine – 491.67) * 5/9 |
 | Rankine to Kelvin | Kelvin = Rankine * 5/9 |

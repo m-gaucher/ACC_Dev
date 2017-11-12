@@ -34,6 +34,19 @@ that will aid in you in this Lab:
 | Rankine to Celsius | Celsius = (Rankine – 491.67) * 5/9 |
 | Rankine to Kelvin | Kelvin = Rankine * 5/9 |
 
+| Absolute Zero |
+| --- |
+| Fahrenheit: -459.67 ᵒF |
+| Celsius: -273.15 ᵒC |
+| Kelvin: 0 K |
+| Rankine: 0 R |
+
+| Cold (FP water) | Hot (BP water) |
+| --- | --- |
+| Fahrenheit: 32 ᵒF | Fahrenheit: 212 ᵒF
+| Celsius: 0 ᵒC | Celsius: 100 ᵒC |
+| Kelvin: 273 K | Kelvin: 373 K |
+| Rankine: 491.67 ᵒR | Rankine: 671.67 ᵒR |
 
 ### Procedure
 

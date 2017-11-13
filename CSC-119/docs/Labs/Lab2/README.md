@@ -18,18 +18,18 @@ STQ = Self-Test Questions
 ## Part 2: Programming Exercises
 ### Introduction
 For this part of the homework, we will create a pulse wave with ASCII characters
-based on the Unicode values, of each character, in your rst name.
+based on the Unicode values, of each character, in your first name.
 
 ### Procedure
 
-1. Prompt the user for their rst name (this is simply used for display purposes; nothing more)
-2. Print the rst name variable
+1. Prompt the user for their frst name (this is simply used for display purposes; nothing more)
+2. Print the frst name variable
 3. Prompt the user for a pulse number (this will be used later in you algorithm)
 4. Print the pulse number variable
-5. Print the Unicode values of each character in their rst name
-6. Print the sum of Unicode characters of the rst name
-7. Print the dierence of Unicode characters in the rst name
-8. Print each character of the rst name, per line, followed by a series ASCII characters
+5. Print the Unicode values of each character in their first name
+6. Print the sum of Unicode characters of the first name
+7. Print the difference of Unicode characters in the first name
+8. Print each character of the first name, per line, followed by a series ASCII characters
 Series = ( Unicode value % pulse number variable )
 
 ## Hints
@@ -40,13 +40,13 @@ Series = ( Unicode value % pulse number variable )
 Page 2
 
 ```
-Please enter your rst name: Frank
+Please enter your first name: Frank
 Frank
 Please enter a pulse number: 13
 13
 70 114 97 110 107
 Sum of Unicode values: 498
-Dierence of Unicode values: -358
+Difference of Unicode values: -358
 F .....
 r .............
 a ......

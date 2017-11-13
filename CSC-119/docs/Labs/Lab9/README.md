@@ -30,18 +30,18 @@ while True :
    # Assign a var for name
    name = input ()
 
-  # Check if name is in dictionary
-  #if <blank > in <blank >:
-  #  print ( usernames [ name ] + ' is username of ' + name )
-  #else :
-  #not found
-  # print (" Item : " + name + " not found in username dicitonary ")
-  # get a new username for above name
-  # uname = input ()
+   # Check if name is in dictionary
+   #if <blank > in <blank >:
+   #  print ( usernames [ name ] + ' is username of ' + name )
+   #else :
+   #not found
+   # print (" Item : " + name + " not found in username dicitonary ")
+   # get a new username for above name
+   # uname = input ()
 
-  # assign new item to dictionary
-  # usernames [ name ] = <blank >
-  # print (" Added item :" + uname )
+   # assign new item to dictionary
+   # usernames [ name ] = <blank >
+   # print (" Added item :" + uname )
 
 ```
 

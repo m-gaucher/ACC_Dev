@@ -16,7 +16,7 @@ In this program, we will continue using a Text editor to formally write our prog
 
 Our goal is to convert between Decimal and Binary numbers, entered by a user. We will make use of loops to simplify our implementation.
 
-> :turtle: **_Before continuing please install Turtle from [here](http://pythonturtle.org/)_** 
+<!-- > :turtle: **_Before continuing please install Turtle from [here](http://pythonturtle.org/)_**  -->
 
 ### Procedure
 1. Prompt the user for a whole number.

@@ -13,7 +13,7 @@ STQ = Self-Test Questions
 
 > :blue_book: Self-Test Questions on page 13: 1, 4, 5, 7
 
-> Self-Test Questions on page 17: 1, 2, 4, 5, 6
+> :blue_book: Self-Test Questions on page 17: 1, 2, 4, 5, 6
 
 ## Part 2: Math Survey
 ### Introduction

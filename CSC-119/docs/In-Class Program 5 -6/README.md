@@ -38,8 +38,20 @@ See In-Class Presentations
 
 ```
 * **Coercion**
+```python
+x = 4
+y = 2.44444
+z = 0
+
+z = x + y
+```
 
 * **Type Conversion**
+```python
+int(2.333333)
+float(2)
+str(2)
+```
 
 Our goal is to convert temperature data entered by the user. We will use the Temperature Conversion
 Program as a baseline to get us started.

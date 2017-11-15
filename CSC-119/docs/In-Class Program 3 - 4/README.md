@@ -20,8 +20,10 @@ num = 2.0 #float
 ```python
 word = "bird" #type string
 ```
-* **Use of Python's built-in function (format(), ord(), id())**
+* **Use of Python's built-in functions (format(), ord(), id())**
 ```
+format (ord('M'), '.4e')
+format (id('M'), '.4e')
 
 ```
 * **Use of Control Characters**

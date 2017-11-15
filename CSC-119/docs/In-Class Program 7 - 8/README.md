@@ -30,12 +30,20 @@ Our goal is to convert between Decimal and Binary numbers, entered by a user. We
       -create recursive func for chap 10
 
 #using built-ins; algorithms in src folder
+sanity_num = int(input("Enter a dec num:"))
+
 print ("using built-in format() binary: ",format(sanity_num, 'b'))
 print ("using built-in bin(): ",bin(sanity_num))
 print ("using built-in bin() and list slice: ",bin(sanity_num)[2:], "\n\n")
 
 ```
 > :computer: Output
+```
+Enter a dec num: 8
+using built-in format() binary:  1000
+using built-in bin():  0b1000
+using built-in bin() and list slice:  1000
+```
 
 <!-- <p align ="left">
   <img width="400" height="400" src="https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Programs%2013%20-%2014/imgs/inc13prog_screen.PNG">
@@ -64,10 +72,15 @@ Our goal is to convert between Decimal and Binary numbers, entered by a user. We
 #      -create recusive func for chap 10 demo
 
 #using built-in; alogrithms in src folder
+num = input("Enter a binary num: ")
 print ("Sanity check: ", int(num, 2))
 ```
 
 > :computer: Output
+```
+Enter a binary num:  1000
+Sanity check:  8
+```
 
 <!-- <p align ="left">
   <img width="400" height="400" src="https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Programs%2013%20-%2014/imgs/inc14prog_screen.PNG">

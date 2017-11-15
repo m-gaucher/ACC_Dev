@@ -54,15 +54,15 @@ print ("ord value of \' M \' is: ", ord ('M'))
 
 #3
 print ("ord value of \' M \' with formatting : ")
-print ( format (ord('M'), '.4f '))
+print ( format (ord('M'), '.4f'))
 
 #4
 print ("ord value of \' M \' with different notation : ")
-print ( format (ord('M'), '.4e '))
+print ( format (ord('M'), '.4e'))
 
 #5
 print ("ord value of \' M \' with different notation : ")
-print ( format (ord('M'), '.2e ') + '\ tcharacters ')
+print ( format (ord('M'), '.2e') + '\t characters ')
 
 #6
 print ("id of numeric literal 3 is: ")
@@ -83,7 +83,22 @@ print (id( word ))
 
 > :computer: Output
 ```
-Add output
+output 
+ord value of ' M ' is:  77
+ord value of ' M ' with formatting : 
+77.0000
+ord value of ' M ' with different notation : 
+7.7000e+01
+ord value of ' M ' with different notation : 
+7.70e+01	 characters 
+id of numeric literal 3 is: 
+139624915052352
+id of string literal 's' is: 
+139624895725616
+id of variable num is: 
+139624915052384
+id of variable word is: 
+139624870633632
 ```
 ## In Class Program 4
 ### Introduction
@@ -179,6 +194,23 @@ print ( num2 + int( letterish ))
 
 > :computer: Output
 ```
-Add output from code
+Please enter your name :  John
+The value stored in name is:  John
+The sum of the unicode values are: 
+66  +  101  +  110  =  277
+The difference of the unicode values are: 
+66  -  101  -  110  =  -145
+The product of the unicode values are: 
+66  *  101  *  110  =  733260
+The quotient of the unicode values are: 
+66  /  101  /  110  =  0.005940594059405941
+The mod values of the unicodes , using 5, are: 
+66  %  5  =  1
+101  %  5  =  1
+110  %  5  =  0
+If we combine string ' bird ' and int 10: 
+ bird 10
+If we combine string '3' and int 11: 
+14
 ```
 

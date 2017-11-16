@@ -12,8 +12,6 @@ In this program, we will use a Text editor to formally write our program. The fi
 * **Dictionary access**
 * **Alternative dictionary keys of mutable type**
 
-Our goal is to demonstrate the fundamental concepts of file I/O. We intent to understand the proper mechanisms used to maintain a file handle gracefully.
-
 Our goal is to understand the fundamental concepts of the dictionary data
 structure. Additionally, we hope to contrast the difference between indexed
 (e.g. list, tuples, string) and associative data structures.

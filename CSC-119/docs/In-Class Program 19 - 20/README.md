@@ -32,93 +32,98 @@ structure. Additionally, we hope to contrast the difference between indexed
 
 > :page_facing_up: [Inc19Prog.py](https://github.com/m-gaucher/ACC_Dev/blob/master/CSC-119/docs/In-Class%20Programs%2017%20-%2018/IncProg17.py)
 ```python
-# declare dict
-dict = {'Name ': 'Sarah ', 'Age ': 7, 'Class ': 'CSC -119 '}
+# declare dict_student
+dict_student = {'Name ': 'Sarah ', 'Age ': 7, 'Class ': 'CSC -119 '}
 
 # print elements by key value
-print (" dict [' Name ']: ", dict ['Name '])
-print (" dict ['Age ']: ", dict ['Age '])
-print (" dict [' Class ']: ", dict ['Class '])
+print (" dict_student [' Name ']: ", dict_student ['Name '])
+print (" dict_student ['Age ']: ", dict_student ['Age '])
+print (" dict_student [' Class ']: ", dict_student ['Class '])
 
-# print entire dict
-print ( dict )
+# print entire dict_student
+print ( dict_student, "\n" )
 
-# update item in dict
-dict ['Name ']= " Frank "
-dict ['Age '] = 2
-dict ['Class '] = "CSC -999 "
+# print using for loop
+for key,value in dict_student.items():
+    print("key:", key, 'associated with value:', value)
 
-print ("\nUpdating record in dict :\n")
-print (" dict [' Name ']: ", dict ['Name '])
-print (" dict ['Age ']: ", dict ['Age '])
-print (" dict [' Class ']: ", dict ['Class '])
 
-#add item to dict
-dict ['School ']= "ACC "
+# update item in dict_student
+dict_student ['Name ']= " Frank "
+dict_student ['Age '] = 2
+dict_student ['Class '] = "CSC -999 "
 
-print ("\nAfter adding a key/ value to dict : \n")
-print ( dict )
+print ("\nUpdating record in dict_student :\n")
+print (" dict_student [' Name ']: ", dict_student ['Name '])
+print (" dict_student ['Age ']: ", dict_student ['Age '])
+print (" dict_student [' Class ']: ", dict_student ['Class '])
 
-# delete item from dict
-print ("\nRemoving 'NAME ' key/ value from dict : \n")
-del dict ['Name ']
-print ( dict )
+#add item to dict_student
+dict_student ['School ']= "ACC "
 
-# remove all items in a dict
-print ("\nRemoving all key/ value pairs from dict : \n")
-dict . clear ()
-print ( dict )
+print ("\nAfter adding a key/ value to dict_student : \n")
+print ( dict_student )
 
-# delete dict
-print ("\nDeleting dict : \n")
-del dict
+# delete item from dict_student
+print ("\nRemoving 'NAME ' key/ value from dict_student : \n")
+del dict_student ['Name ']
+print ( dict_student )
+
+# remove all items in a dict_student
+print ("\nRemoving all key/ value pairs from dict_student : \n")
+dict_student . clear ()
+print ( dict_student )
+
+# delete dict_student
+print ("\nDeleting dict_student : \n")
+del dict_student
 
 try :
-  print ( dict )
+  print ( dict_student )
 except NameError :
-  print ("The dict is no longer defined .")
+  print ("The dict_student is no longer defined .")
   print (" Without this exception you would see the following :\n")
   print ("\tTraceback ( most recent call last ):")
   print ("\tFile 'python ', line 43, in <module >")
-  print ("\tNameError : name 'dict ' is not defined ")
+  print ("\tNameError : name 'dict_student ' is not defined ")
 
-# create 2 new dictionaries to demonstrate built -in function
-dict1 = {'Name ': 'Sarah ', 'Age ': 7, 'Class ': 'CSC -119 '}
-dict2 = {'Name ': 'Frank ', 'Age ': 2, 'Class ': 'CSC -999 ', 'School ': 'ACC '}
+# create 2 new dict_studentionaries to demonstrate built -in function
+dict_student1 = {'Name ': 'Sarah ', 'Age ': 7, 'Class ': 'CSC -119 '}
+dict_student2 = {'Name ': 'Frank ', 'Age ': 2, 'Class ': 'CSC -999 ', 'School ': 'ACC '}
 
-# print length of dictionaries
-print ("\nLength of dictionaries : \n")
-print (" dict1 : ", len( dict1 ))
-print (" dict2 : ", len( dict2 ))
+# print length of dict_studentionaries
+print ("\nLength of dict_studentionaries : \n")
+print (" dict_student1 : ", len( dict_student1 ))
+print (" dict_student2 : ", len( dict_student2 ))
 
-# print dictionaries as strings
-print ("\nDictionaries as strings : \n")
-print (" dict1 : ", str( dict1 ))
-print (" dict2 : ", str( dict2 ))
+# print dict_studentionaries as strings
+print ("\ndict_studentionaries as strings : \n")
+print (" dict_student1 : ", str( dict_student1 ))
+print (" dict_student2 : ", str( dict_student2 ))
 
-# print dict type
-print ("\nDictionary type : \n")
-print (" dict1 : ", type ( dict1 ))
-print (" dict2 : ", type ( dict2 ))
+# print dict_student type
+print ("\ndict_studentionary type : \n")
+print (" dict_student1 : ", type ( dict_student1 ))
+print (" dict_student2 : ", type ( dict_student2 ))
 
-# print dict keys and values
-print ("\nDictionary key/ value : \n")
-print (" dict1 keys : ", dict1 . keys ())
-print (" dict1 values : ", dict1 . values ())
-print (" dict2 keys : ", dict2 . keys ())
-print (" dict2 values : ", dict2 . values ())
+# print dict_student keys and values
+print ("\ndict_studentionary key/ value : \n")
+print (" dict_student1 keys : ", dict_student1 . keys ())
+print (" dict_student1 values : ", dict_student1 . values ())
+print (" dict_student2 keys : ", dict_student2 . keys ())
+print (" dict_student2 values : ", dict_student2 . values ())
 
-# determine if a dict has a given key
-print ("\nCheck Dictionary for a key: \n")
-print (" dict1 has key 'Name ' : ", 'Name ' in dict1 )
-print (" dict1 has key 'Bird ' : ", 'Bird ' in dict1 )
+# determine if a dict_student has a given key
+print ("\nCheck dict_studentionary for a key: \n")
+print (" dict_student1 has key 'Name ' : ", 'Name ' in dict_student1 )
+print (" dict_student1 has key 'Bird ' : ", 'Bird ' in dict_student1 )
 
-# create a dictionary with mutable key
+# create a dict_studentionary with mutable key
 temp = {( 'Jan ', 2, 2004) : 34.6 ,
         ('Jan ', 3, 2006) : 94.6 ,
         ('Jan ', 4, 2001) : 74.6}
 
-print ("\nNew dictionary temp with mutable key :\n")
+print ("\nNew dict_studentionary temp with mutable key :\n")
 print (" temp : ", temp )
 print (" temp keys : ", temp . keys ())
 print (" temp values : ", temp . values ())

@@ -48,7 +48,7 @@ dict ['Name ']= " Frank "
 dict ['Age '] = 2
 dict ['Class '] = "CSC -999 "
 
-print ("\ nUpdating record in dict :\n")
+print ("\nUpdating record in dict :\n")
 print (" dict [' Name ']: ", dict ['Name '])
 print (" dict ['Age ']: ", dict ['Age '])
 print (" dict [' Class ']: ", dict ['Class '])
@@ -56,21 +56,21 @@ print (" dict [' Class ']: ", dict ['Class '])
 #add item to dict
 dict ['School ']= "ACC "
 
-print ("\ nAfter adding a key/ value to dict : \n")
+print ("\nAfter adding a key/ value to dict : \n")
 print ( dict )
 
 # delete item from dict
-print ("\ nRemoving 'NAME ' key/ value from dict : \n")
+print ("\nRemoving 'NAME ' key/ value from dict : \n")
 del dict ['Name ']
 print ( dict )
 
 # remove all items in a dict
-print ("\ nRemoving all key/ value pairs from dict : \n")
+print ("\nRemoving all key/ value pairs from dict : \n")
 dict . clear ()
 print ( dict )
 
 # delete dict
-print ("\ nDeleting dict : \n")
+print ("\nDeleting dict : \n")
 del dict
 
 try :
@@ -78,38 +78,38 @@ try :
 except NameError :
   print ("The dict is no longer defined .")
   print (" Without this exception you would see the following :\n")
-  print ("\ tTraceback ( most recent call last ):")
-  print ("\ tFile 'python ', line 43, in <module >")
-  print ("\ tNameError : name 'dict ' is not defined ")
+  print ("\tTraceback ( most recent call last ):")
+  print ("\tFile 'python ', line 43, in <module >")
+  print ("\tNameError : name 'dict ' is not defined ")
 
 # create 2 new dictionaries to demonstrate built -in function
 dict1 = {'Name ': 'Sarah ', 'Age ': 7, 'Class ': 'CSC -119 '}
 dict2 = {'Name ': 'Frank ', 'Age ': 2, 'Class ': 'CSC -999 ', 'School ': 'ACC '}
 
 # print length of dictionaries
-print ("\ nLength of dictionaries : \n")
+print ("\nLength of dictionaries : \n")
 print (" dict1 : ", len( dict1 ))
 print (" dict2 : ", len( dict2 ))
 
 # print dictionaries as strings
-print ("\ nDictionaries as strings : \n")
+print ("\nDictionaries as strings : \n")
 print (" dict1 : ", str( dict1 ))
 print (" dict2 : ", str( dict2 ))
 
 # print dict type
-print ("\ nDictionary type : \n")
+print ("\nDictionary type : \n")
 print (" dict1 : ", type ( dict1 ))
 print (" dict2 : ", type ( dict2 ))
 
 # print dict keys and values
-print ("\ nDictionary key/ value : \n")
+print ("\nDictionary key/ value : \n")
 print (" dict1 keys : ", dict1 . keys ())
 print (" dict1 values : ", dict1 . values ())
 print (" dict2 keys : ", dict2 . keys ())
 print (" dict2 values : ", dict2 . values ())
 
 # determine if a dict has a given key
-print ("\ nCheck Dictionary for a key: \n")
+print ("\nCheck Dictionary for a key: \n")
 print (" dict1 has key 'Name ' : ", 'Name ' in dict1 )
 print (" dict1 has key 'Bird ' : ", 'Bird ' in dict1 )
 
@@ -118,7 +118,7 @@ temp = {( 'Jan ', 2, 2004) : 34.6 ,
         ('Jan ', 3, 2006) : 94.6 ,
         ('Jan ', 4, 2001) : 74.6}
 
-print ("\ nNew dictionary temp with mutable key :\n")
+print ("\nNew dictionary temp with mutable key :\n")
 print (" temp : ", temp )
 print (" temp keys : ", temp . keys ())
 print (" temp values : ", temp . values ())

@@ -19,29 +19,43 @@ ciated names. For this program you need to determine what goes in blank,
 and ensure the program operates gracefully.
 
 ```python
+#Lab9
+#This code will not run until you fill in each <blank> field with appropiate value
 
-# Define original dictionary
-usernames = {'John ': 'john - bird ', 'Jenna ': 'redcar5 '}
+'''
+print_dict: prints all users and their associated usernames
+'''
+def print_dict(<blank>):
+    for <blank>, <blank> in usernames.items():
+        print("user:", <blank>, "username:", <blank>)
+'''
+main: loop to add or verify user is within dictionay
+'''
+def main():
+    usernames = {'John ': 'john-bird43 ', 'Jenna ': 'redcar5 '}
+    
+    print_dict(usernames)
+    
+    while True:
+        # Assign a var for name
+        name = input('Enter a name :')
 
-while True :
-   # Request user to enter a name
-   print ('Enter a name :')
+        # Check if name is in dictionary
+        if <blank> in usernames:
+            print ( usernames [ name ] + ' is username of ' + name )
+        else :
+            #not found
+            print(" User : " + name + " not found in username dicitonary ")
+            #get a new username for above name
+            print("Please enter a username for", name)
+            uname = input()
 
-   # Assign a var for name
-   name = input ()
+            # assign new item to dictionary
+            usernames [ name ] = <blank>
+            print (" Added item :" + uname )
 
-   # Check if name is in dictionary
-   #if <blank > in <blank >:
-   #  print ( usernames [ name ] + ' is username of ' + name )
-   #else :
-   #not found
-   # print (" Item : " + name + " not found in username dicitonary ")
-   # get a new username for above name
-   # uname = input ()
-
-   # assign new item to dictionary
-   # usernames [ name ] = <blank >
-   # print (" Added item :" + uname )
+if __name__ == "__main__":
+    main()
 
 ```
 

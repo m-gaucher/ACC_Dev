@@ -137,7 +137,77 @@ print (" temp [(' Jan ', 4, 2001) ] :" , temp [( 'Jan ', 4, 2001) ])
 
 ```
 
-Add output from inc19
+dict_student [' Name ']:  Sarah 
+ dict_student ['Age ']:  7
+ dict_student [' Class ']:  CSC -119 
+{'Name ': 'Sarah ', 'Age ': 7, 'Class ': 'CSC -119 '} 
+
+key: Name  associated with value: Sarah 
+key: Age  associated with value: 7
+key: Class  associated with value: CSC -119 
+
+Updating record in dict_student :
+
+ dict_student [' Name ']:   Frank 
+ dict_student ['Age ']:  2
+ dict_student [' Class ']:  CSC -999 
+
+After adding a key/ value to dict_student : 
+
+{'Name ': ' Frank ', 'Age ': 2, 'Class ': 'CSC -999 ', 'School ': 'ACC '}
+
+Removing 'NAME ' key/ value from dict_student : 
+
+{'Age ': 2, 'Class ': 'CSC -999 ', 'School ': 'ACC '}
+
+Removing all key/ value pairs from dict_student : 
+
+{}
+
+Deleting dict_student : 
+
+The dict_student is no longer defined .
+ Without this exception you would see the following :
+
+	Traceback ( most recent call last ):
+	File 'python ', line 43, in <module >
+	NameError : name 'dict_student ' is not defined 
+
+Length of dict_studentionaries : 
+
+ dict_student1 :  3
+ dict_student2 :  4
+
+dict_studentionaries as strings : 
+
+ dict_student1 :  {'Name ': 'Sarah ', 'Age ': 7, 'Class ': 'CSC -119 '}
+ dict_student2 :  {'Name ': 'Frank ', 'Age ': 2, 'Class ': 'CSC -999 ', 'School ': 'ACC '}
+
+dict_studentionary type : 
+
+ dict_student1 :  <class 'dict'>
+ dict_student2 :  <class 'dict'>
+
+dict_studentionary key/ value : 
+
+ dict_student1 keys :  dict_keys(['Name ', 'Age ', 'Class '])
+ dict_student1 values :  dict_values(['Sarah ', 7, 'CSC -119 '])
+ dict_student2 keys :  dict_keys(['Name ', 'Age ', 'Class ', 'School '])
+ dict_student2 values :  dict_values(['Frank ', 2, 'CSC -999 ', 'ACC '])
+
+Check dict_studentionary for a key: 
+
+ dict_student1 has key 'Name ' :  True
+ dict_student1 has key 'Bird ' :  False
+
+New dict_studentionary temp with mutable key :
+
+ temp :  {('Jan ', 2, 2004): 34.6, ('Jan ', 3, 2006): 94.6, ('Jan ', 4, 2001): 74.6}
+ temp keys :  dict_keys([('Jan ', 2, 2004), ('Jan ', 3, 2006), ('Jan ', 4, 2001)])
+ temp values :  dict_values([34.6, 94.6, 74.6])
+ temp [(' Jan ', 2, 2004) ] : 34.6
+ temp [(' Jan ', 3, 2006) ] : 94.6
+ temp [(' Jan ', 4, 2001) ] : 74.6
 
 ```
 

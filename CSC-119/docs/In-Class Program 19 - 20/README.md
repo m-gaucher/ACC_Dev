@@ -176,50 +176,50 @@ print (" set_a :", set_a )
 print (" set_b :", set_b )
 
 #set membership
-print ("\ nSet Membership : \n")
+print ("\nSet Membership : \n")
 print (" Value 1 in set_a : ", 1 in set_a )
 print (" Value 99 in set_a : ", 99 in set_a )
 print (" Value 5 in set_b : ", 5 in set_b )
 print (" Value -3 in set_b : ", -3 in set_b )
 
 #add item to list
-print ("\ nAdd item to Set: \n")
+print ("\nAdd item to Set: \n")
 print (" set_a before :", set_a )
 set_a.add (4)
 print (" set_a after :", set_a )
 
 # remove item to list
-print ("\ nAdd item to Set: \n")
+print ("\nAdd item to Set: \n")
 print (" set_a before :", set_a )
 set_a.remove (4)
 print (" set_a after :", set_a )
 
 # union
 #set of elements in either set_a or set_b
-print ("\ nUnion : \n")
+print ("\nUnion : \n")
 print (" union of set_a and set_b :", set_a | set_b )
 print (" union of set_b and set_a :", set_b | set_a )
 
 # intersection
 # set of elements in both set_a and set_b
-print ("\ nIntersection : \n")
+print ("\nIntersection : \n")
 print (" intersection of set_a and set_b :", set_a & set_b )
 print (" intersection of set_b and set_a :", set_b & set_a )
 
 #difference
 #set of elements in set_a , but not in set_b
-print ("\ nDifference : \n")
+print ("\nDifference : \n")
 print (" difference of set_a and set_b :", set_a - set_b )
 print (" difference of set_b and set_a :", set_b - set_a )
 
 #symetric difference
 #set of elements in set_a and set_b , but not both
-print ("\ nSymetric Difference : \n")
+print ("\nSymetric Difference : \n")
 print ("sym difference of set_a and set_b :", set_a ^ set_b )
 print ("sym difference of set_b and set_a :", set_b ^ set_a )
 
 # size of set
-print ("\ nSize of set: \n")
+print ("\nSize of set: \n")
 print (" set_a size :", len( set_a ))
 print (" set_b size :", len( set_b ))
 ```
@@ -227,6 +227,51 @@ print (" set_b size :", len( set_b ))
 > :computer: Output in data_out.txt
 
 ```
-add output from inc20
+Print Sets :
+
+ set_a : {1, 2, 3}
+ set_b : {3, 4, 5, 6}
+
+Set Membership : 
+
+ Value 1 in set_a :  True
+ Value 99 in set_a :  False
+ Value 5 in set_b :  True
+ Value -3 in set_b :  False
+
+Add item to Set: 
+
+ set_a before : {1, 2, 3}
+ set_a after : {1, 2, 3, 4}
+
+Add item to Set: 
+
+ set_a before : {1, 2, 3, 4}
+ set_a after : {1, 2, 3}
+
+Union : 
+
+ union of set_a and set_b : {1, 2, 3, 4, 5, 6}
+ union of set_b and set_a : {1, 2, 3, 4, 5, 6}
+
+Intersection : 
+
+ intersection of set_a and set_b : {3}
+ intersection of set_b and set_a : {3}
+
+Difference : 
+
+ difference of set_a and set_b : {1, 2}
+ difference of set_b and set_a : {4, 5, 6}
+
+Symetric Difference : 
+
+sym difference of set_a and set_b : {1, 2, 4, 5, 6}
+sym difference of set_b and set_a : {1, 2, 4, 5, 6}
+
+Size of set: 
+
+ set_a size : 3
+ set_b size : 4
 ```
 

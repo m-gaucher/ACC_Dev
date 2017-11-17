@@ -103,4 +103,58 @@ that will aid in you in this Lab:
     - print(Rankine , “R \xb0 is Hot”)
 17. if Rankine <= Rankine Freezing Point
     - print(Rankine , “R \xb0 is Cold”)
+                        
+ ```python
+ print("Temperature program")
+temp = int(input("Enter a temp value:"))
+temp_unit = input("Enter a temp unit:")
+
+if( temp_unit == "F"):
+    Celsius = (temp - 32) * 5/9
+    Kelvin = (temp + 459.67) * 5/9
+    Rankine = temp + 459.67
+    print(temp, "F \xb0 equals ", format(Celsius, '.2f'), "C \xb0")
+    print(temp, "F \xb0 equals ", format(Kelvin, '.2f'), "K")
+    print(temp, "F \xb0 equals ", format(Rankine, '.2f'), "R \xb0")
+    if( temp < 32):
+        print("cold")
+    if( temp > 212):
+        print("hot") 
+elif(temp_unit == "C"):
+    Fahrenheit = temp * 9/5 + 32
+    Kelvin = temp + 273.15
+    Rankine = (temp + 273.15) * 9/5
+    print(temp, "C \xb0 equals ", format(Fahrenheit, '.2f'), "F \xb0")
+    print(temp, "C \xb0 equals ", format(Kelvin, '.2f'), "K")
+    print(temp, "C \xb0 equals ", format(Rankine, '.2f'), "R \xb0")
+    if( temp < 0):
+        print("cold")
+    if( temp > 100):
+        print("hot")
+elif(temp_unit == "K"):
+    Fahrenheit = temp * 9/5 - 459.67
+    Celsius = temp - 273.15
+    Rankine = temp * 9/5
+    print(temp, "K equals ", format(Fahrenheit , '.2f'), "F \xb0")
+    print(temp, "K equals ", format(Celsius , '.2f'), "C \xb0")
+    print(temp, "K equals ", format(Rankine , '.2f'), "R \xb0")
+    if( temp < 273):
+        print("cold")
+    if( temp > 373):
+        print("hot")
+elif(temp_unit == "R"):
+    Fahrenheit = temp - 459.67
+    Celsius = (temp - 491.67) * 5/9
+    Kelvin = temp * 5/91
+    print(temp, "R \xb0 equals ", format(Fahrenheit , '.2f'), "F \xb0")
+    print(temp, "R \xb0 equals ", format(Celsius , '.2f'), "C \xb0")
+    print(temp, "R \xb0 equals ", format(Kelvin , '.2f'), "K")
+    if( temp < 491.67):
+        print("cold")
+    if( temp >  671.67 ):
+        print("hot")
+else:
+    print("Invalid temp unit:", temp_unit)
+
+ ```
 

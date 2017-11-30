@@ -39,3 +39,53 @@ Recall from In Class Program 11 & 12, we used a couple forms of functions to ach
 **Prime:** a positive integer that has no positive integer divisors other than 1 and itself. More concisely, a prime number is a positive integer having exactly one positive divisor other than 1, meaning it is a number that cannot be factored. (e.g. 2, 3, 5, 7, 11, 13, 17, 19, 23...etc)
 
 **Least Common Multiple:** The smallest positive number that is a multiple of two or more numbers. (e.g 3 & 5 would have 15 as the least common multiple)
+
+'''python
+'''
+print first n primes
+'''
+def print_primes(n):
+    count = 2
+    prime = 5
+    factor = 3
+    
+    if(n == 1):
+        print("The first prime number is 2.")
+    else:
+        print("The first", n ,"prime numbers are:\n")
+        print('{var:<4}'.format(var = 2),'{var:<5}'.format(var = 3),end='')
+    
+    while (count < n):
+        last_factor = int((prime**(1/2)))
+        
+        for factor in range(3, last_factor, 2):
+            if( prime % factor == 0):
+                break
+        
+        if(prime % factor != 0):
+            count+=1
+            print('{var:<5}'.format(var=prime),end='')
+            
+            #print 10 primes per line
+            if(count % 10 == 0):
+                print(" ")
+        prime += 2
+
+print_primes(100)  
+
+'''
+
+'''
+The first 100 prime numbers are:
+
+2    3    5    7    11   13   17   19   23   25    
+29   31   35   37   41   43   47   49   53   59    
+61   67   71   73   79   83   89   97   101  103   
+107  109  113  121  127  131  137  139  143  149   
+151  157  163  167  169  173  179  181  191  193   
+197  199  211  223  227  229  233  239  241  251   
+257  263  269  271  277  281  283  289  293  307   
+311  313  317  323  331  337  347  349  353  359   
+361  367  373  379  383  389  397  401  409  419   
+421  431  433  439  443  449  457  461  463  467   
+'''

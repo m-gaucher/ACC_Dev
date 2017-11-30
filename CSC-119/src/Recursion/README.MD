@@ -8,6 +8,11 @@ First, we must understand what a “base case” is. The base case allows our re
   <img width="310" height="350" src="img/recursion2.jpg">
 </p>
 
+We can define Recursion as an algorithm that calls itself one or more times until a specified condition is met, at which time the rest of each repetition is processed from the last one called to the first.
+
+Once we understand how recursion is designed, we can transition between iterative and recursive solutions for a given problem. It is important to understand the design constraints/limitations of a given problem as recursion is not ideal for all problem sets. Remember, function calls are not free.
+
+
 ```python
 import time
 '''

@@ -41,9 +41,9 @@ Recall from In Class Program 11 & 12, we used a couple forms of functions to ach
 **Least Common Multiple:** The smallest positive number that is a multiple of two or more numbers. (e.g 3 & 5 would have 15 as the least common multiple)
 
 '''python
-'''
-print first n primes
-'''
+
+#print first n primes
+
 def print_primes(n):
     count = 2
     prime = 5

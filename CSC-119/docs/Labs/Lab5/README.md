@@ -42,16 +42,16 @@ Recall from In Class Program 11 & 12, we used a couple forms of functions to ach
 
 ```python
 
+import math
+
 '''
 print first n primes
-
-*note: change format padding per prime for large n
 '''
 def print_primes(n):
     count = 2
     prime = 5
     factor = 3
-    
+
     if(n == 1):
         print("The first prime number is 2.")
     else:
@@ -59,7 +59,7 @@ def print_primes(n):
         print('{var:<4}'.format(var = 2),'{var:<5}'.format(var = 3),end='')
     
     while (count < n):
-        last_factor = int((prime**(1/2)))
+        last_factor = round((prime**(1/2))+(0.5))
         
         for factor in range(3, last_factor, 2):
             if( prime % factor == 0):
@@ -74,21 +74,27 @@ def print_primes(n):
                 print()
         prime += 2
 
-print_primes(100)  
+print_primes(100)        
 
 ```
 
 ```
 The first 100 prime numbers are:
 
-2    3    5    7    11   13   17   19   23   25    
-29   31   35   37   41   43   47   49   53   59    
-61   67   71   73   79   83   89   97   101  103   
-107  109  113  121  127  131  137  139  143  149   
-151  157  163  167  169  173  179  181  191  193   
-197  199  211  223  227  229  233  239  241  251   
-257  263  269  271  277  281  283  289  293  307   
-311  313  317  323  331  337  347  349  353  359   
-361  367  373  379  383  389  397  401  409  419   
-421  431  433  439  443  449  457  461  463  467   
+2    3    5    7    11   13   17   19   23   29   
+31   37   41   43   47   53   59   61   67   71   
+73   79   83   89   97   101  103  107  109  113  
+127  131  137  139  149  151  157  163  167  173  
+179  181  191  193  197  199  211  223  227  229  
+233  239  241  251  257  263  269  271  277  281  
+283  293  307  311  313  317  331  337  347  349  
+353  359  367  373  379  383  389  397  401  409  
+419  421  431  433  439  443  449  457  461  463  
+467  479  487  491  499  503  509  521  523  541  
+```
+
+
+```python
+
+
 ```

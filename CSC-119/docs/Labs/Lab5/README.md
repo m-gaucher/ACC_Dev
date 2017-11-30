@@ -44,6 +44,8 @@ Recall from In Class Program 11 & 12, we used a couple forms of functions to ach
 
 '''
 print first n primes
+
+*note: change format padding per prime for large n
 '''
 def print_primes(n):
     count = 2
@@ -69,7 +71,7 @@ def print_primes(n):
             
             #print 10 primes per line
             if(count % 10 == 0):
-                print(" ")
+                print()
         prime += 2
 
 print_primes(100)  

@@ -94,6 +94,27 @@ The first 100 prime numbers are:
 
 
 ```python
+import math
 
+'''
+determine if n is prime
+'''
+def is_prime(n):
+    if(n <= 1):
+        return False
+    if(n == 2 or n ==3):
+        return True
+    if(n % 2 == 0):
+        return False
+  
+    #ensure we conventionally round integers
+    last_factor = round((n**(1/2)))
+    
+    #check all odd numbers up to the sqrt of n (limit factor checks)
+    for factor in range(3, last_factor, 2):
+        if( n % factor == 0):
+            return False
+    
+    return True
 
 ```

@@ -36,14 +36,24 @@ def iter_func_decr(n):
 '''
 This valued return function recursively sums 0 to the parameter passed in
 '''
-def recr_func_dec2(n):
+def recr_func_sum(n):
     #print(n)
     if n == 1:
         return 1
     else:
         #print("n:", n, "n-1", n-1)
-        return n + recr_func_dec2(n -1)
+        return n + recr_func_sum(n -1)
 
+'''
+This valued return function iteratively sums 0 to the parameter passed in
+'''
+def iter_func_sum(n):
+    sum = 0
+    while n > 0:
+        sum += n
+        n -= 1
+    return sum
+      
 '''
 This valued return function recursively computes the
 factorial of the parameter passed in
@@ -55,8 +65,7 @@ def recr_factorial(n):
         return n * recr_factorial(n-1)
 
 '''
-This function iteratively computes the
-factorial of the parameter passed in
+This function iteratively computes the factorial of the parameter passed in
 '''
 def iter_factorial(n):
     i = 2
@@ -91,7 +100,8 @@ def main():
 
     #print("recr_func_incr(5):")
     
-    #print(recr_func_dec2(5))
+    #print(recr_func_sum(5))
+    #print(iter_func_sum(5))
     #s = time.time()
     #r = recr_factorial(950)
     #e = time.time()

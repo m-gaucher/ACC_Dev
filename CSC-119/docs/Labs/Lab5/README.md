@@ -41,7 +41,6 @@ Recall from In Class Program 11 & 12, we used a couple forms of functions to ach
 **Least Common Multiple:** The smallest positive number that is a multiple of two or more numbers. (e.g 3 & 5 would have 15 as the least common multiple)
 
 ```python
-
 import math
 
 '''
@@ -52,11 +51,12 @@ def print_primes(n):
     prime = 5
     factor = 3
 
+    
     if(n == 1):
         print("The first prime number is 2.")
     else:
         print("The first", n ,"prime numbers are:\n")
-        print('{var:<4}'.format(var = 2),'{var:<5}'.format(var = 3),end='')
+        print(format(2,' <4'), format(3,' <5'),end='')
     
     while (count < n):
         last_factor = round((prime**(1/2))+(0.5))
@@ -67,14 +67,14 @@ def print_primes(n):
         
         if(prime % factor != 0):
             count+=1
-            print('{var:<5}'.format(var=prime),end='')
+            print(format(prime,' <5'),end='')
             
             #print 10 primes per line
             if(count % 10 == 0):
                 print()
         prime += 2
 
-print_primes(100)        
+print_primes(100)               
 
 ```
 

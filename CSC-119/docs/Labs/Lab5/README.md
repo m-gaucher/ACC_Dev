@@ -50,7 +50,6 @@ def print_primes(n):
     count = 2
     prime = 5
     factor = 3
-
     
     if(n == 1):
         print("The first prime number is 2.")

@@ -40,10 +40,11 @@ Recall from In Class Program 11 & 12, we used a couple forms of functions to ach
 
 **Least Common Multiple:** The smallest positive number that is a multiple of two or more numbers. (e.g 3 & 5 would have 15 as the least common multiple)
 
-'''python
+```python
 
-#print first n primes
-
+'''
+print first n primes
+'''
 def print_primes(n):
     count = 2
     prime = 5
@@ -73,9 +74,9 @@ def print_primes(n):
 
 print_primes(100)  
 
-'''
+```
 
-'''
+```
 The first 100 prime numbers are:
 
 2    3    5    7    11   13   17   19   23   25    
@@ -88,4 +89,4 @@ The first 100 prime numbers are:
 311  313  317  323  331  337  347  349  353  359   
 361  367  373  379  383  389  397  401  409  419   
 421  431  433  439  443  449  457  461  463  467   
-'''
+```

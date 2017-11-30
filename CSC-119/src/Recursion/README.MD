@@ -53,7 +53,7 @@ def recr_factorial(n):
         return n * recr_factorial(n-1)
 
 '''
-This valued return function recursively computes the
+This function iteratively computes the
 factorial of the parameter passed in
 '''
 def iter_factorial(n):

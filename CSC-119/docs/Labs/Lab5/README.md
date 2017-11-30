@@ -100,12 +100,13 @@ import math
 determine if n is prime
 '''
 def is_prime(n):
-    if(n <= 1):
+    #dont check invalid n or even integers
+    if(n <= 1 or n % 2 == 0 ):
         return False
+        
+    #check special case integers to ensure below iteration is graceful    
     if(n == 2 or n ==3):
         return True
-    if(n % 2 == 0):
-        return False
   
     #ensure we conventionally round integers
     last_factor = round((n**(1/2)))

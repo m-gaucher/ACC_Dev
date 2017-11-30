@@ -1,9 +1,12 @@
 # Recursion
 
-Random text
+In Chapter 11 we are introduced to a concept called Recursion. This concept allows us to solve problems using a new technique that leverages patterns/properties within solving sub-problems. Recall concepts of conditionals and control structures from earlier in the course. These will provide the foundation for understanding how recursive algorithms are designed.
 
+First, we must understand what a “base case” is. The base case allows our recursive algorithm to gracefully terminate. Without this condition we will run into concepts of stack overflow that conceptually mirror infinite loops.  See below:
 
-
+<p align ="left">
+  <img width="310" height="350" src="img/recursion2.jpg">
+</p>
 
 ```python
 import time

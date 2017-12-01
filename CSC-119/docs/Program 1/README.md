@@ -25,6 +25,7 @@ OBST_LOC = 3
 # create vars to width and height of map
 MAP_WIDTH = 250
 MAP_HEIGHT = 250
+TURN_DEGREE = 90
 
 # create the maze for underlying map logic
 # (e.g. start location, obstacle location, end location)
@@ -109,14 +110,14 @@ def backward():
 left: used to bind keyboard left arrow key to control turtle
 '''
 def left():
-    the_turtle.left(45)
+    the_turtle.left(TURN_DEGREE)
     print("left key pressed ")
 
 '''
 right: used to bind keyboard right arrow key to control turtle
 '''
 def right():
-    the_turtle.right(45)
+    the_turtle.right(TURN_DEGREE)
     print("right key pressed ")
 
 '''

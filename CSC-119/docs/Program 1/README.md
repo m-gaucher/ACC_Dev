@@ -73,9 +73,12 @@ forward: used to bind keyboard up arrow key to control turtle
 '''
 def forward():
     global distance
+    # use conventional integer round to avoid off by 1 issues
+    x = round(the_turtle.xcor())
+    y = round(the_turtle.ycor())
 
     print("forward key pressed ")
-    print("x:", round(the_turtle.xcor()), "y:", round(the_turtle.ycor()))
+    print("x:", x, "y:", y)
 
     # start the timer on the first turtle movement
     if(distance == 0):
@@ -83,18 +86,21 @@ def forward():
         start_time = time.time()
 
     # check if the turtle has reached the end location
-    if (maze[round(the_turtle.xcor())][round(the_turtle.ycor())] == END_LOC):
+    if (maze[x][y] == END_LOC):
         display_end_prompt()
 
     '''
     Since the coordinate system is fixed to the top left corner of the window, 
     and we assume the turtle only checks valid points looking forward, 
     ensure the location that is turtle distance ahead is open (e.g. != 3)
+    
+    ** Note: 20 pixels is the length of the turtle; if you use another icon
+    you need to scale this var accordingly
     '''
-    if (maze[round(the_turtle.xcor())][round(the_turtle.ycor()) + 20] == OBST_LOC ):
-        print("OBSTACLE: ", "x:", round(the_turtle.xcor()), "y:", round(the_turtle.ycor()+20))
-    elif(maze[round(the_turtle.xcor()) + 20][round(the_turtle.ycor())] == OBST_LOC):
-        print("OBSTACLE: ", "x:", round(the_turtle.xcor()+20), "y:", round(the_turtle.ycor()))
+    if (maze[x][y + 20] == OBST_LOC ):
+        print("OBSTACLE: ", "x:", x, "y:", y)
+    elif(maze[x + 20][y] == OBST_LOC):
+        print("OBSTACLE: ", "x:", x + 20, "y:", y)
     else:
         the_turtle.forward(1)
         distance += 1

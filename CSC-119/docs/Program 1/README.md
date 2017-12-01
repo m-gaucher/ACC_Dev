@@ -124,10 +124,7 @@ def right():
 main: main function of program
 '''
 def main():
-    window_title = "My first Turtle Graphics Program"
-    window_width = MAP_WIDTH
-    window_height = MAP_HEIGHT
-
+    # get locations from user
     startx = int(input("Enter startx:"))
     starty = int(input("Enter starty:"))
     obsx = int(input("Enter obsx:"))
@@ -135,18 +132,19 @@ def main():
     endx = int(input("Enter endx:"))
     endy = int(input("Enter endy:"))
 
+    # mark x, y locations in maze
     maze[startx][starty] = START_LOC
     maze[endx][endy] = END_LOC
     maze[obsx][obsy] = OBST_LOC
 
     # set window size
-    turtle.setup(window_width, window_height)
+    turtle.setup(MAP_WIDTH, MAP_HEIGHT)
 
     # get reference to turtle window
     window = turtle.Screen()
 
     # set window title bar
-    window.title(window_title)
+    window.title("Turtle Program v1.0.0.0")
 
     # bind up keyboard arrow to forward function
     window.onkey(forward, "Up")
@@ -163,8 +161,10 @@ def main():
     #align the map on the top-left corner of the window
     window.setworldcoordinates(0, MAP_WIDTH, MAP_HEIGHT, 0)
 
+    # mark the obstacle location
     mark_point_visually(OBST_LOC, obsx, obsy)
 
+    # mark the end location
     mark_point_visually(END_LOC, endx, endy)
 
     #set the turtle to the starting location

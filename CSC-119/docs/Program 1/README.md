@@ -116,16 +116,14 @@ def backward():
 left: used to bind keyboard left arrow key to control turtle
 '''
 def left():
-    #opposite direction due to window.setworldcoordinates orientation 
-    the_turtle.right(TURN_DEGREE)
+    the_turtle.left(TURN_DEGREE)
     print("left key pressed ")
 
 '''
 right: used to bind keyboard right arrow key to control turtle
 '''
 def right():
-    #opposite direction due to window.setworldcoordinates orientation 
-    the_turtle.left(TURN_DEGREE)
+    the_turtle.right(TURN_DEGREE)
     print("right key pressed ")
 
 '''
@@ -166,8 +164,8 @@ def main():
     # bind up keyboard arrow to left function
     window.onkey(left, " Left ")
 
-    #align the map on the top-left corner of the window
-    window.setworldcoordinates(0, MAP_WIDTH, MAP_HEIGHT, 0)
+    #align the map on the bottom-left corner of the window
+    window.setworldcoordinates(0, 0, MAP_HEIGHT, MAP_WIDTH)
 
     # mark the obstacle location
     mark_point_visually(OBST_LOC, obsx, obsy)

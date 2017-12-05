@@ -116,14 +116,16 @@ def backward():
 left: used to bind keyboard left arrow key to control turtle
 '''
 def left():
-    the_turtle.left(TURN_DEGREE)
+    #opposite direction due to window.setworldcoordinates orientation 
+    the_turtle.right(TURN_DEGREE)
     print("left key pressed ")
 
 '''
 right: used to bind keyboard right arrow key to control turtle
 '''
 def right():
-    the_turtle.right(TURN_DEGREE)
+    #opposite direction due to window.setworldcoordinates orientation 
+    the_turtle.left(TURN_DEGREE)
     print("right key pressed ")
 
 '''

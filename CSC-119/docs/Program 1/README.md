@@ -32,6 +32,47 @@ TURN_DEGREE = 90
 maze = [[0] * MAP_WIDTH for i in range(MAP_HEIGHT)]
 
 '''
+mark_border: marks the square maze/map border walls with OBST_LOC value
+
+* Note: assume square maze/map 
+'''
+def mark_border():
+    for i in range(MAP_WIDTH-1):
+       maze[i][0] = OBST_LOC
+       maze[MAP_WIDTH - 1][i] = OBST_LOC
+       maze[i][MAP_WIDTH - 1] = OBST_LOC
+       maze[0][i] =  OBST_LOC
+
+'''
+draw_border: draws the border walls for the square maze
+'''
+def draw_border():
+    the_turtle.setposition(0,0)
+    the_turtle.shape("circle")
+    the_turtle.color("black")
+    the_turtle.pendown()
+
+    the_turtle.setposition(0,0)
+    # draw first bottom row
+    the_turtle.forward(MAP_WIDTH)
+    the_turtle.left(90)
+    # draw right column
+    the_turtle.forward(MAP_HEIGHT)
+    the_turtle.left(90)
+    # draw top row
+    the_turtle.forward(MAP_WIDTH)
+    the_turtle.left(90)
+    # draw left column
+    the_turtle.forward(MAP_HEIGHT)
+
+    # mark the maze with border walls
+    mark_border()
+
+    the_turtle.shape("classic")
+    the_turtle.color("black")
+    the_turtle.penup()
+
+'''
 mark_point_visually
 '''
 def mark_point_visually(point_code, x, y):
@@ -97,16 +138,20 @@ def forward():
     ** Note: 20 pixels is the length of the turtle; if you use another icon
     you need to scale this var accordingly
     '''
-    if (maze[x][y + 20] == OBST_LOC ):
-        print("OBSTACLE: ", "x:", x, "y:", y)
-    elif(maze[x + 20][y] == OBST_LOC):
-        print("OBSTACLE: ", "x:", x + 20, "y:", y)
+    if (maze[x][y + 1] == OBST_LOC ):
+        print("OBSTACLE: ", "x:", x, "y:", y+1)
+        the_turtle.backward(1)
+    elif(maze[x + 1][y] == OBST_LOC):
+        print("OBSTACLE: ", "x:", x+1, "y:", y)
+        the_turtle.backward(1)
     else:
         the_turtle.forward(1)
         distance += 1
 
 '''
 backward: used to bind keyboard down arrow key to control turtle
+
+*Note: we don't check for maze values backing up; assume forward orientation
 '''
 def backward():
     the_turtle.backward(1)
@@ -117,6 +162,7 @@ left: used to bind keyboard left arrow key to control turtle
 '''
 def left():
     the_turtle.left(TURN_DEGREE)
+    #the_turtle.right(TURN_DEGREE)
     print("left key pressed ")
 
 '''
@@ -124,19 +170,48 @@ right: used to bind keyboard right arrow key to control turtle
 '''
 def right():
     the_turtle.right(TURN_DEGREE)
+    #the_turtle.left(TURN_DEGREE)
     print("right key pressed ")
+
+'''
+validate_x: Ensures user enters a valid x location
+*Note: border will occupy 0 and MAP_WIDTH x index of maze
+'''
+def validate_x(point_name):
+    prompt = "Enter " + point_name + ":"
+    x = int(input(prompt))
+
+    while x <= 0 or x >= MAP_WIDTH-1:
+        print("Invalid x point. Please enter a valid x between 0 and", MAP_WIDTH)
+        x = int(input(prompt))
+
+    return x
+
+'''
+validate_y: Ensures user enters a valid y location
+*Note: border will occupy 0 and MAP_HEIGHT y index of maze
+'''
+def validate_y(point_name):
+    prompt = "Enter " + point_name + ":"
+    y = int(input(prompt))
+
+    while y <= 0 or y >= MAP_HEIGHT - 1:
+        print("Invalid y point. Please enter a valid y between 0 and", MAP_HEIGHT)
+        y = int(input(prompt))
+
+    return y
 
 '''
 main: main function of program
 '''
 def main():
     # get locations from user
-    startx = int(input("Enter startx:"))
-    starty = int(input("Enter starty:"))
-    obsx = int(input("Enter obsx:"))
-    obsy = int(input("Enter obsy:"))
-    endx = int(input("Enter endx:"))
-    endy = int(input("Enter endy:"))
+    startx = validate_x("startx")
+    starty = validate_y("starty")
+    obsx = validate_x("obsx")
+    obsy = validate_y("obsy")
+    endx = validate_x("endx")
+    endy = validate_y("endy")
 
     # mark x, y locations in maze
     maze[startx][starty] = START_LOC
@@ -173,9 +248,14 @@ def main():
     # mark the end location
     mark_point_visually(END_LOC, endx, endy)
 
+    draw_border()
+
     #set the turtle to the starting location
     the_turtle.setposition(startx, starty)
     the_turtle.pendown()
+
+    # set window size
+    turtle.setup(MAP_WIDTH + 200, MAP_HEIGHT + 200)
 
     # setup event handler
     window.listen()

@@ -1,10 +1,10 @@
 # declare 2d none square list (6x5)
 non_sq_matrix = [['a', 'a', 'a', 'a', 'a'], 
-	               ['s', 's', 's', 's', 'a'], 
-	               ['s', 's', 's', 's', 's'], 
-	               ['s', 's', 's', 's', 'a'], 
-	               ['s', 's', 's', 's', 'a'],
-	               ['r', 'r', 'z', 'z', 'z']]
+	         ['s', 's', 's', 's', 'a'], 
+	         ['s', 's', 's', 's', 's'], 
+	         ['s', 's', 's', 's', 'a'], 
+	         ['s', 's', 's', 's', 'a'],
+	         ['r', 'r', 'z', 'z', 'z']]
 	             
 print("non_sq_matrix dimensions")            
 print("num of rows:", len(non_sq_matrix))

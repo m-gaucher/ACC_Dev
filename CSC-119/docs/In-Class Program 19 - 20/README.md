@@ -213,7 +213,7 @@ New dict_studentionary temp with mutable key :
 
 ## In Class Program 20
 ### Introduction
-InIn this program, we will use a Text editor to formally write our program.
+In this program, we will use a Text editor to formally write our program.
 The final solution MUST run successfully as a Python program. This program will demonstrate what we have learned from Chapter 9. We intend to demonstrate competencies in the following topics: this program, we will use a Text editor to formally write our program. The final solution MUST run successfully as a Python program. This program will demonstrate what we have learned from Chapter 8. We intend to demonstrate competencies in the following topics:
 
 * **Sets**

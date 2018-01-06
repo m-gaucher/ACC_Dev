@@ -11,5 +11,6 @@ hex_exp = len(hex_num)-1
 #simplify base conversion by use of built in int()
 for value in hex_num:
     int_num += int(value,16)*(16**hex_exp)
+    hex_exp -= 1
 
 print("Hex:", "0x"+hex_num, "is", int_num)
